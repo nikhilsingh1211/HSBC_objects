@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_hsbc_extension_milestone">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Extension Milestone</name>
+  <customvalues>
+    <customvalue scriptid="val_104737_t2371454_280">
+      <isinactive>F</isinactive>
+      <value>Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_104738_t2371454_888">
+      <isinactive>F</isinactive>
+      <value>Transmission</value>
+    </customvalue>
+    <customvalue scriptid="val_104739_t2371454_294">
+      <isinactive>F</isinactive>
+      <value>Extension</value>
+    </customvalue>
+  </customvalues>
+</customlist>

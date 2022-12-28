@@ -1,0 +1,60 @@
+<customlist scriptid="customlist_hsbc_pssl_status_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC PSSL Status List</name>
+  <customvalues>
+    <customvalue scriptid="val_76848_t2371454_137">
+      <isinactive>F</isinactive>
+      <value>Awaiting Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_76849_t2371454_768">
+      <isinactive>F</isinactive>
+      <value>Approved Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_76850_t2371454_930">
+      <isinactive>F</isinactive>
+      <value>Rejected Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_76851_t2371454_279">
+      <isinactive>F</isinactive>
+      <value>Loan Request Submitted </value>
+    </customvalue>
+    <customvalue scriptid="val_76852_t2371454_192">
+      <isinactive>F</isinactive>
+      <value>Loan Request Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_76853_t2371454_294">
+      <isinactive>F</isinactive>
+      <value>Loan Request Cancelled</value>
+    </customvalue>
+    <customvalue scriptid="val_76854_t2371454_837">
+      <isinactive>F</isinactive>
+      <value>Disbursed</value>
+    </customvalue>
+    <customvalue scriptid="val_78280_t2371454_228">
+      <isinactive>F</isinactive>
+      <value>Transmission Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_78451_t2371454_156">
+      <isinactive>F</isinactive>
+      <value>Rejected by HSBC</value>
+    </customvalue>
+    <customvalue scriptid="val_80373_t2371454_247">
+      <isinactive>F</isinactive>
+      <value>Pending Repayment</value>
+    </customvalue>
+    <customvalue scriptid="val_80374_t2371454_987">
+      <isinactive>F</isinactive>
+      <value>Settled</value>
+    </customvalue>
+    <customvalue scriptid="val_103190_t2371454_646">
+      <isinactive>F</isinactive>
+      <value>Settlement Submitted</value>
+    </customvalue>
+    <customvalue scriptid="val_103191_t2371454_599">
+      <isinactive>F</isinactive>
+      <value>Extension Submitted</value>
+    </customvalue>
+  </customvalues>
+</customlist>

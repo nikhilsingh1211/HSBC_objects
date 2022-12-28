@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_hsbc_day2_help">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2]</centertab>
+  <label>Help</label>
+  <links>
+    <link>
+      <linklabel>HSBC Process Logs</linklabel>
+      <linkobject>[scriptid=customsearch_hsbc_process_logs]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

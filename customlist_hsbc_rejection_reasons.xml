@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_hsbc_rejection_reasons">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Rejection Reasons</name>
+  <customvalues>
+    <customvalue scriptid="val_68284_t2371454_276">
+      <isinactive>F</isinactive>
+      <value>Reason 1</value>
+    </customvalue>
+    <customvalue scriptid="val_68285_t2371454_202">
+      <isinactive>F</isinactive>
+      <value>Other</value>
+    </customvalue>
+  </customvalues>
+</customlist>

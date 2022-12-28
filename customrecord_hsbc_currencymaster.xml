@@ -1,0 +1,941 @@
+<customrecordtype scriptid="customrecord_hsbc_currencymaster">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>F</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>F</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>F</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>F</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>HSBC Currency Master</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_hsbc_currencyname">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Currency Name</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_loan_currency_symbol">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Symbol</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_75255_t2371454_657">
+      <custrecord_hsbc_currencyname>UAE DIRHAM</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>د.إ</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>AED</name>
+    </instance>
+    <instance scriptid="val_75256_t2371454_681">
+      <custrecord_hsbc_currencyname>ALBANIAN LEK</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>L</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ALL</name>
+    </instance>
+    <instance scriptid="val_75257_t2371454_600">
+      <custrecord_hsbc_currencyname>ARMENIAN DRAM</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>֏</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>AMD</name>
+    </instance>
+    <instance scriptid="val_75258_t2371454_982">
+      <custrecord_hsbc_currencyname>NETHERLANDS ANTILLIAN GLR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>ƒ</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ANG</name>
+    </instance>
+    <instance scriptid="val_75259_t2371454_923">
+      <custrecord_hsbc_currencyname>ARGENTINE PESO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ARS</name>
+    </instance>
+    <instance scriptid="val_75260_t2371454_570">
+      <custrecord_hsbc_currencyname>AUSTRALIAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>A$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>AUD</name>
+    </instance>
+    <instance scriptid="val_75261_t2371454_575">
+      <custrecord_hsbc_currencyname>BOSNIA CONVERTIBLE MARKA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>KM</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BAM</name>
+    </instance>
+    <instance scriptid="val_75262_t2371454_404">
+      <custrecord_hsbc_currencyname>BARBADOS DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Bds$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BBD</name>
+    </instance>
+    <instance scriptid="val_75263_t2371454_985">
+      <custrecord_hsbc_currencyname>BANGLADESH TAKA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>৳</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BDT</name>
+    </instance>
+    <instance scriptid="val_75264_t2371454_967">
+      <custrecord_hsbc_currencyname>BULGARIAN LEV</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Лв</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BGN</name>
+    </instance>
+    <instance scriptid="val_75265_t2371454_908">
+      <custrecord_hsbc_currencyname>BAHRAINI DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>BD</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BHD</name>
+    </instance>
+    <instance scriptid="val_75266_t2371454_667">
+      <custrecord_hsbc_currencyname>BURUNDI FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>FBu</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BIF</name>
+    </instance>
+    <instance scriptid="val_75267_t2371454_464">
+      <custrecord_hsbc_currencyname>BERMUDIAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BMD</name>
+    </instance>
+    <instance scriptid="val_75268_t2371454_200">
+      <custrecord_hsbc_currencyname>BRUNEI DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>B$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BND</name>
+    </instance>
+    <instance scriptid="val_75269_t2371454_121">
+      <custrecord_hsbc_currencyname>BOLIVIANO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Bs</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BOB</name>
+    </instance>
+    <instance scriptid="val_75270_t2371454_385">
+      <custrecord_hsbc_currencyname>BRAZILIAN REAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>R$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BRL</name>
+    </instance>
+    <instance scriptid="val_75271_t2371454_181">
+      <custrecord_hsbc_currencyname>BAHAMIAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>B$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BSD</name>
+    </instance>
+    <instance scriptid="val_75272_t2371454_989">
+      <custrecord_hsbc_currencyname>NGULTRUM</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Nu</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BTN</name>
+    </instance>
+    <instance scriptid="val_75273_t2371454_416">
+      <custrecord_hsbc_currencyname>BOTSWANA PULA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>P</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BWP</name>
+    </instance>
+    <instance scriptid="val_75274_t2371454_265">
+      <custrecord_hsbc_currencyname>BELARUSSIAN ROUBLE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>BYN</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BYR</name>
+    </instance>
+    <instance scriptid="val_75275_t2371454_950">
+      <custrecord_hsbc_currencyname>BELIZE DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>BZD</name>
+    </instance>
+    <instance scriptid="val_75276_t2371454_994">
+      <custrecord_hsbc_currencyname>CANADIAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CAD</name>
+    </instance>
+    <instance scriptid="val_75277_t2371454_876">
+      <custrecord_hsbc_currencyname>FRANC COGOLAIS</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>FC</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CDF</name>
+    </instance>
+    <instance scriptid="val_75278_t2371454_226">
+      <custrecord_hsbc_currencyname>SWISS FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>CHf</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CHF</name>
+    </instance>
+    <instance scriptid="val_75279_t2371454_253">
+      <custrecord_hsbc_currencyname>CHILEAN PESO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CLP</name>
+    </instance>
+    <instance scriptid="val_75280_t2371454_510">
+      <custrecord_hsbc_currencyname>YUAN RENMINBI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>¥</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CNY</name>
+    </instance>
+    <instance scriptid="val_75281_t2371454_693">
+      <custrecord_hsbc_currencyname>COLUMBIAN PESO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>COP</name>
+    </instance>
+    <instance scriptid="val_75282_t2371454_957">
+      <custrecord_hsbc_currencyname>COSTA RICAN COLON</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₡</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CRC</name>
+    </instance>
+    <instance scriptid="val_75283_t2371454_591">
+      <custrecord_hsbc_currencyname>CAPE VERDE ESCUDO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CVE</name>
+    </instance>
+    <instance scriptid="val_75284_t2371454_487">
+      <custrecord_hsbc_currencyname>CZECH KORUNA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Kč</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>CZK</name>
+    </instance>
+    <instance scriptid="val_75285_t2371454_347">
+      <custrecord_hsbc_currencyname>DJIBOUTI FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Fdj</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>DJF</name>
+    </instance>
+    <instance scriptid="val_75286_t2371454_358">
+      <custrecord_hsbc_currencyname>DANISH KRONE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Kr</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>DKK</name>
+    </instance>
+    <instance scriptid="val_75287_t2371454_304">
+      <custrecord_hsbc_currencyname>DOMINICAN PESO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>RD$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>DOP</name>
+    </instance>
+    <instance scriptid="val_75288_t2371454_817">
+      <custrecord_hsbc_currencyname>ALGERIAN DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>دج</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>DZD</name>
+    </instance>
+    <instance scriptid="val_75289_t2371454_943">
+      <custrecord_hsbc_currencyname>EGYPTIAN POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>E£</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>EGP</name>
+    </instance>
+    <instance scriptid="val_75290_t2371454_476">
+      <custrecord_hsbc_currencyname>NAKFA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Nfk</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ERN</name>
+    </instance>
+    <instance scriptid="val_75291_t2371454_513">
+      <custrecord_hsbc_currencyname>ETHIOPIAN BIRR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Br</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ETB</name>
+    </instance>
+    <instance scriptid="val_75292_t2371454_361">
+      <custrecord_hsbc_currencyname>EURO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>€</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>EUR</name>
+    </instance>
+    <instance scriptid="val_75293_t2371454_320">
+      <custrecord_hsbc_currencyname>FIJI DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>FJ$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>FJD</name>
+    </instance>
+    <instance scriptid="val_75294_t2371454_934">
+      <custrecord_hsbc_currencyname>FALKLAND ISLANDS POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>£</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>FKP</name>
+    </instance>
+    <instance scriptid="val_75295_t2371454_207">
+      <custrecord_hsbc_currencyname>STERLING POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>£</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GBP</name>
+    </instance>
+    <instance scriptid="val_75296_t2371454_580">
+      <custrecord_hsbc_currencyname>LARI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>GEL</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GEL</name>
+    </instance>
+    <instance scriptid="val_75297_t2371454_912">
+      <custrecord_hsbc_currencyname>GHANA CEDI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>GH¢</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GHS</name>
+    </instance>
+    <instance scriptid="val_75298_t2371454_576">
+      <custrecord_hsbc_currencyname>GIBRALTAR POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>£</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GIP</name>
+    </instance>
+    <instance scriptid="val_75299_t2371454_721">
+      <custrecord_hsbc_currencyname>DALASI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>D</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GMD</name>
+    </instance>
+    <instance scriptid="val_75300_t2371454_402">
+      <custrecord_hsbc_currencyname>GUINEA FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>FG</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GNF</name>
+    </instance>
+    <instance scriptid="val_75301_t2371454_781">
+      <custrecord_hsbc_currencyname>QUETZAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Q</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GTQ</name>
+    </instance>
+    <instance scriptid="val_75302_t2371454_413">
+      <custrecord_hsbc_currencyname>GUYANA DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>GY$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>GYD</name>
+    </instance>
+    <instance scriptid="val_75303_t2371454_629">
+      <custrecord_hsbc_currencyname>HONG KONG DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>HK$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>HKD</name>
+    </instance>
+    <instance scriptid="val_75304_t2371454_742">
+      <custrecord_hsbc_currencyname>LEMPIRA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>L</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>HNL</name>
+    </instance>
+    <instance scriptid="val_75305_t2371454_212">
+      <custrecord_hsbc_currencyname>CROATIAN KUNA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>kn</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>HRK</name>
+    </instance>
+    <instance scriptid="val_75306_t2371454_494">
+      <custrecord_hsbc_currencyname>HAITI GOURDE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>G</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>HTG</name>
+    </instance>
+    <instance scriptid="val_75307_t2371454_187">
+      <custrecord_hsbc_currencyname>HUNGARY FORINT</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Ft</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>HUF</name>
+    </instance>
+    <instance scriptid="val_75308_t2371454_370">
+      <custrecord_hsbc_currencyname>INDONESIAN RUPIAH</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Rp</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>IDR</name>
+    </instance>
+    <instance scriptid="val_75309_t2371454_877">
+      <custrecord_hsbc_currencyname>NEW ISRAELI SHEKEL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₪</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ILS</name>
+    </instance>
+    <instance scriptid="val_75310_t2371454_498">
+      <custrecord_hsbc_currencyname>INDIAN RUPEE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₹</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>INR</name>
+    </instance>
+    <instance scriptid="val_75311_t2371454_870">
+      <custrecord_hsbc_currencyname>ICELAND KRONA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>kr</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ISK</name>
+    </instance>
+    <instance scriptid="val_75312_t2371454_808">
+      <custrecord_hsbc_currencyname>JAMAICAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>JMD</name>
+    </instance>
+    <instance scriptid="val_75313_t2371454_666">
+      <custrecord_hsbc_currencyname>JORDANIAN DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>د.ا</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>JOD</name>
+    </instance>
+    <instance scriptid="val_75314_t2371454_985">
+      <custrecord_hsbc_currencyname>JAPANESE YEN</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>¥</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>JPY</name>
+    </instance>
+    <instance scriptid="val_75315_t2371454_984">
+      <custrecord_hsbc_currencyname>KENYAN SHILLING</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>KSh</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KES</name>
+    </instance>
+    <instance scriptid="val_75316_t2371454_712">
+      <custrecord_hsbc_currencyname>KYRGYZSTAN SOM</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Лв</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KGS</name>
+    </instance>
+    <instance scriptid="val_75317_t2371454_535">
+      <custrecord_hsbc_currencyname>CAMBODIAN RIEL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>៛</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KHR</name>
+    </instance>
+    <instance scriptid="val_75318_t2371454_119">
+      <custrecord_hsbc_currencyname>COMORO FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>CF</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KMF</name>
+    </instance>
+    <instance scriptid="val_75319_t2371454_699">
+      <custrecord_hsbc_currencyname>KOREAN WON (SOUTH KOREA)</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₩</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KRW</name>
+    </instance>
+    <instance scriptid="val_75320_t2371454_974">
+      <custrecord_hsbc_currencyname>KUWAITI DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>KD</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KWD</name>
+    </instance>
+    <instance scriptid="val_75321_t2371454_349">
+      <custrecord_hsbc_currencyname>CAYMAN ISLANDS DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KYD</name>
+    </instance>
+    <instance scriptid="val_75322_t2371454_960">
+      <custrecord_hsbc_currencyname>TENGE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₸</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>KZT</name>
+    </instance>
+    <instance scriptid="val_75323_t2371454_748">
+      <custrecord_hsbc_currencyname>KIP</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₭</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>LAK</name>
+    </instance>
+    <instance scriptid="val_75324_t2371454_465">
+      <custrecord_hsbc_currencyname>LEBANESE POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>ل.ل</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>LBP</name>
+    </instance>
+    <instance scriptid="val_75325_t2371454_849">
+      <custrecord_hsbc_currencyname>SRI LANKA RUPEE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Rs</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>LKR</name>
+    </instance>
+    <instance scriptid="val_75326_t2371454_602">
+      <custrecord_hsbc_currencyname>LIBERIAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>L$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>LRD</name>
+    </instance>
+    <instance scriptid="val_75327_t2371454_491">
+      <custrecord_hsbc_currencyname>LOTI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>L</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>LSL</name>
+    </instance>
+    <instance scriptid="val_75328_t2371454_152">
+      <custrecord_hsbc_currencyname>LIBYAN DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>LD</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>LYD</name>
+    </instance>
+    <instance scriptid="val_75329_t2371454_574">
+      <custrecord_hsbc_currencyname>MOROCCAN DIRHAM</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>MAD</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MAD</name>
+    </instance>
+    <instance scriptid="val_75330_t2371454_745">
+      <custrecord_hsbc_currencyname>MOLDOVAN LEU</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>L</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MDL</name>
+    </instance>
+    <instance scriptid="val_75331_t2371454_308">
+      <custrecord_hsbc_currencyname>DENAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Ден</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MKD</name>
+    </instance>
+    <instance scriptid="val_75332_t2371454_280">
+      <custrecord_hsbc_currencyname>TUGRIK</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₮</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MNT</name>
+    </instance>
+    <instance scriptid="val_75333_t2371454_814">
+      <custrecord_hsbc_currencyname>MACAU PATACA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>MOP$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MOP</name>
+    </instance>
+    <instance scriptid="val_75334_t2371454_300">
+      <custrecord_hsbc_currencyname>OUGUIYA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>UM</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MRO</name>
+    </instance>
+    <instance scriptid="val_75335_t2371454_468">
+      <custrecord_hsbc_currencyname>MAURITIUS RUPEE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₨</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MUR</name>
+    </instance>
+    <instance scriptid="val_75336_t2371454_118">
+      <custrecord_hsbc_currencyname>RUFIYAA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Rf</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MVR</name>
+    </instance>
+    <instance scriptid="val_75337_t2371454_582">
+      <custrecord_hsbc_currencyname>KWACHA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>ZK</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MWK</name>
+    </instance>
+    <instance scriptid="val_75338_t2371454_350">
+      <custrecord_hsbc_currencyname>MEXICAN PESO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Mex$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MXN</name>
+    </instance>
+    <instance scriptid="val_75339_t2371454_515">
+      <custrecord_hsbc_currencyname>MALAYSIAN RINGGIT</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>RM</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MYR</name>
+    </instance>
+    <instance scriptid="val_75340_t2371454_532">
+      <custrecord_hsbc_currencyname>METICAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>MT</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>MZN</name>
+    </instance>
+    <instance scriptid="val_75341_t2371454_403">
+      <custrecord_hsbc_currencyname>NAMIBIA DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>N$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>NAD</name>
+    </instance>
+    <instance scriptid="val_75342_t2371454_545">
+      <custrecord_hsbc_currencyname>NIGERIAN NAIRA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₦</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>NGN</name>
+    </instance>
+    <instance scriptid="val_75343_t2371454_783">
+      <custrecord_hsbc_currencyname>CORDOBA ORO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>C$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>NIO</name>
+    </instance>
+    <instance scriptid="val_75344_t2371454_842">
+      <custrecord_hsbc_currencyname>NORWEGIAN KRONE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>kr</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>NOK</name>
+    </instance>
+    <instance scriptid="val_75345_t2371454_347">
+      <custrecord_hsbc_currencyname>NEPALESE RUPEE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>रू</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>NPR</name>
+    </instance>
+    <instance scriptid="val_75346_t2371454_879">
+      <custrecord_hsbc_currencyname>NEW ZEALAND DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>NZD</name>
+    </instance>
+    <instance scriptid="val_75347_t2371454_168">
+      <custrecord_hsbc_currencyname>OMANI RIAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>ر.ع.</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>OMR</name>
+    </instance>
+    <instance scriptid="val_75348_t2371454_281">
+      <custrecord_hsbc_currencyname>NUEVO SOL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>S/</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>PEN</name>
+    </instance>
+    <instance scriptid="val_75349_t2371454_273">
+      <custrecord_hsbc_currencyname>PAPUA NEW GUINEA KINA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>K</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>PGK</name>
+    </instance>
+    <instance scriptid="val_75350_t2371454_919">
+      <custrecord_hsbc_currencyname>PHILIPPINE PESOS</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₱</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>PHP</name>
+    </instance>
+    <instance scriptid="val_75351_t2371454_330">
+      <custrecord_hsbc_currencyname>PAKISTAN RUPEE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₨</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>PKR</name>
+    </instance>
+    <instance scriptid="val_75352_t2371454_392">
+      <custrecord_hsbc_currencyname>POLISH ZLOTY</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>zł</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>PLN</name>
+    </instance>
+    <instance scriptid="val_75353_t2371454_845">
+      <custrecord_hsbc_currencyname>GUARANI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₲</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>PYG</name>
+    </instance>
+    <instance scriptid="val_75354_t2371454_505">
+      <custrecord_hsbc_currencyname>QATARI RIAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>QR</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>QAR</name>
+    </instance>
+    <instance scriptid="val_75355_t2371454_617">
+      <custrecord_hsbc_currencyname>ROMANIAN LEU</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>lei</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ROL</name>
+    </instance>
+    <instance scriptid="val_75357_t2371454_306">
+      <custrecord_hsbc_currencyname>SERBIAN DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>din</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>RSD</name>
+    </instance>
+    <instance scriptid="val_75358_t2371454_890">
+      <custrecord_hsbc_currencyname>RUSSIAN RUBLE (NEW)</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₽</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>RUB</name>
+    </instance>
+    <instance scriptid="val_75359_t2371454_447">
+      <custrecord_hsbc_currencyname>RWANDA FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>R₣</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>RWF</name>
+    </instance>
+    <instance scriptid="val_75360_t2371454_657">
+      <custrecord_hsbc_currencyname>SAUDI ARABIA RIYAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>SR</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SAR</name>
+    </instance>
+    <instance scriptid="val_75361_t2371454_888">
+      <custrecord_hsbc_currencyname>SOLOMON ISLANDS DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Si$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SBD</name>
+    </instance>
+    <instance scriptid="val_75362_t2371454_189">
+      <custrecord_hsbc_currencyname>SEYCHELLES RUPEE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>SRe</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SCR</name>
+    </instance>
+    <instance scriptid="val_75363_t2371454_964">
+      <custrecord_hsbc_currencyname>SWEDISH KRONA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>kr</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SEK</name>
+    </instance>
+    <instance scriptid="val_75364_t2371454_797">
+      <custrecord_hsbc_currencyname>SINGAPORE DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SGD</name>
+    </instance>
+    <instance scriptid="val_75365_t2371454_592">
+      <custrecord_hsbc_currencyname>ST.HELENA POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>£</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SHP</name>
+    </instance>
+    <instance scriptid="val_75367_t2371454_999">
+      <custrecord_hsbc_currencyname>LEONE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Le</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SLL</name>
+    </instance>
+    <instance scriptid="val_75368_t2371454_391">
+      <custrecord_hsbc_currencyname>SOMALI SHILLING</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Sh.so.</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SOS</name>
+    </instance>
+    <instance scriptid="val_75369_t2371454_192">
+      <custrecord_hsbc_currencyname>SOUTH SUDANESE POUND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>£</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SSP</name>
+    </instance>
+    <instance scriptid="val_75370_t2371454_716">
+      <custrecord_hsbc_currencyname>LILANGENI</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>E</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>SZL</name>
+    </instance>
+    <instance scriptid="val_75371_t2371454_947">
+      <custrecord_hsbc_currencyname>THAI BAHT</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>฿</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>THB</name>
+    </instance>
+    <instance scriptid="val_75372_t2371454_419">
+      <custrecord_hsbc_currencyname>TUNISIAN DINAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>DT</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>TND</name>
+    </instance>
+    <instance scriptid="val_75373_t2371454_365">
+      <custrecord_hsbc_currencyname>PA&apos;ANGA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>T$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>TOP</name>
+    </instance>
+    <instance scriptid="val_75374_t2371454_410">
+      <custrecord_hsbc_currencyname>NEW TURKISH LIRA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>YTL</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>TRY</name>
+    </instance>
+    <instance scriptid="val_75375_t2371454_462">
+      <custrecord_hsbc_currencyname>TRINIDAD and TOBAGO DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>TT$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>TTD</name>
+    </instance>
+    <instance scriptid="val_75376_t2371454_504">
+      <custrecord_hsbc_currencyname>NEW TAIWAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>NT$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>TWD</name>
+    </instance>
+    <instance scriptid="val_75377_t2371454_376">
+      <custrecord_hsbc_currencyname>UKRAINE HRYVNIA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₴</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>UAH</name>
+    </instance>
+    <instance scriptid="val_75378_t2371454_434">
+      <custrecord_hsbc_currencyname>UGANDA SHILLING</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>USh</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>UGX</name>
+    </instance>
+    <instance scriptid="val_75379_t2371454_997">
+      <custrecord_hsbc_currencyname>US DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>USD</name>
+    </instance>
+    <instance scriptid="val_75380_t2371454_273">
+      <custrecord_hsbc_currencyname>PESO URUGUAYO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$U</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>UYU</name>
+    </instance>
+    <instance scriptid="val_75381_t2371454_997">
+      <custrecord_hsbc_currencyname>UZBEKISTAN SUM</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>so&apos;m</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>UZS</name>
+    </instance>
+    <instance scriptid="val_75382_t2371454_125">
+      <custrecord_hsbc_currencyname>BOLIVAR FUERTE</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>Bs</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>VEF</name>
+    </instance>
+    <instance scriptid="val_75383_t2371454_491">
+      <custrecord_hsbc_currencyname>VIETNAMESE DONG</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₫</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>VND</name>
+    </instance>
+    <instance scriptid="val_75384_t2371454_279">
+      <custrecord_hsbc_currencyname>VANUATU VATU</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>VT</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>VUV</name>
+    </instance>
+    <instance scriptid="val_75385_t2371454_143">
+      <custrecord_hsbc_currencyname>SAMOANIAN TALA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>SAT</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>WST</name>
+    </instance>
+    <instance scriptid="val_75386_t2371454_166">
+      <custrecord_hsbc_currencyname>CFA FRANC BEAC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>FCFA</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>XAF</name>
+    </instance>
+    <instance scriptid="val_75387_t2371454_289">
+      <custrecord_hsbc_currencyname>EAST CARIBBEAN DOLLAR</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>$</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>XCD</name>
+    </instance>
+    <instance scriptid="val_75388_t2371454_456">
+      <custrecord_hsbc_currencyname>CFA FRANC BCEAO</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>CFA</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>XOF</name>
+    </instance>
+    <instance scriptid="val_75389_t2371454_803">
+      <custrecord_hsbc_currencyname>CFP FRANC</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>₣</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>XPF</name>
+    </instance>
+    <instance scriptid="val_75390_t2371454_948">
+      <custrecord_hsbc_currencyname>YEMENI RIAL</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>﷼</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>YER</name>
+    </instance>
+    <instance scriptid="val_75391_t2371454_492">
+      <custrecord_hsbc_currencyname>SOUTH AFRICAN RAND</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>R</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ZAR</name>
+    </instance>
+    <instance scriptid="val_75392_t2371454_591">
+      <custrecord_hsbc_currencyname>ZAMBIA KWACHA</custrecord_hsbc_currencyname>
+      <custrecord_hsbc_loan_currency_symbol>ZK</custrecord_hsbc_loan_currency_symbol>
+      <isinactive>F</isinactive>
+      <name>ZMW</name>
+    </instance>
+  </instances>
+</customrecordtype>

@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_hsbc_acct_day2_help">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2_accounting]</centertab>
+  <label>Help</label>
+  <links>
+    <link>
+      <linklabel>HSBC Process Logs</linklabel>
+      <linkobject>[appid=com.hsbcbank.hsbcerp, scriptid=customsearch_hsbc_process_logs]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

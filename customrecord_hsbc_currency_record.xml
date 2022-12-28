@@ -1,0 +1,462 @@
+<customrecordtype scriptid="customrecord_hsbc_currency_record">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>T</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>F</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>T</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>F</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>T</includeinsearchmenu>
+  <includename>F</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>HSBC Currency Record</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_hsbc_currency_record">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Currency</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_currency_symbol">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Symbol</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_currency_name">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Name</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_72239_t2371454_431">
+      <custrecord_hsbc_currency_name>Bulgarian lev</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>BGN</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>лв</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72240_t2371454_607">
+      <custrecord_hsbc_currency_name>Swiss franc</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>CHF</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>CHF</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72241_t2371454_108">
+      <custrecord_hsbc_currency_name>Czech koruna</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>CZK</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>Kč</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72242_t2371454_353">
+      <custrecord_hsbc_currency_name>Danish krone</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>DKK</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>kr</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72243_t2371454_731">
+      <custrecord_hsbc_currency_name>Euro</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>EUR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>€</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72244_t2371454_392">
+      <custrecord_hsbc_currency_name>Pounds sterling</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>GBP</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>£</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72245_t2371454_111">
+      <custrecord_hsbc_currency_name>Croatian Kuna</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>HRK</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>kn</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72246_t2371454_960">
+      <custrecord_hsbc_currency_name>Georgian lari</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>GEL</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₾</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72247_t2371454_619">
+      <custrecord_hsbc_currency_name>Hungarian forint</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>HUF</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>ft</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72248_t2371454_132">
+      <custrecord_hsbc_currency_name>Norwegian krone</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>NOK</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>kr</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72249_t2371454_511">
+      <custrecord_hsbc_currency_name>Polish zloty</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>PLN</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>zł</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72251_t2371454_620">
+      <custrecord_hsbc_currency_name>Russian ruble</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>RUB</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₽</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72252_t2371454_428">
+      <custrecord_hsbc_currency_name>Romanian leu</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>RON</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>lei</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72253_t2371454_721">
+      <custrecord_hsbc_currency_name>Swedish krona</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>SEK</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>kr</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72254_t2371454_511">
+      <custrecord_hsbc_currency_name>Turkish lira</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>TRY</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₺</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72255_t2371454_644">
+      <custrecord_hsbc_currency_name>Ukrainian hryvna</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>UAH</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₴</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72256_t2371454_601">
+      <custrecord_hsbc_currency_name>Emirati dirham</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>AED</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>د.إ</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72257_t2371454_454">
+      <custrecord_hsbc_currency_name>Israeli shekel</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>ILS</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₪</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72258_t2371454_412">
+      <custrecord_hsbc_currency_name>Kenyan shilling</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>KES</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>Ksh</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72259_t2371454_372">
+      <custrecord_hsbc_currency_name>Moroccan dirham</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>MAD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>.د.م</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72260_t2371454_803">
+      <custrecord_hsbc_currency_name>Nigerian naira</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>NGN</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₦</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72261_t2371454_785">
+      <custrecord_hsbc_currency_name>South african rand**</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>ZAR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>R</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72262_t2371454_544">
+      <custrecord_hsbc_currency_name>Brazilian real</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>BRL</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>R$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72263_t2371454_503">
+      <custrecord_hsbc_currency_name>Canadian dollars</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>CAD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72264_t2371454_953">
+      <custrecord_hsbc_currency_name>Chilean peso</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>CLP</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72265_t2371454_329">
+      <custrecord_hsbc_currency_name>Colombian peso</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>COP</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72266_t2371454_357">
+      <custrecord_hsbc_currency_name>Mexican peso</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>MXN</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72267_t2371454_520">
+      <custrecord_hsbc_currency_name>Peruvian sol</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>PEN</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>S/.</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72268_t2371454_246">
+      <custrecord_hsbc_currency_name>US dollar</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>USD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72269_t2371454_117">
+      <custrecord_hsbc_currency_name>Australian dollars</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>AUD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72270_t2371454_834">
+      <custrecord_hsbc_currency_name>Bangladeshi taka</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>BDT</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>৳</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72271_t2371454_810">
+      <custrecord_hsbc_currency_name>Chinese yuan</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>CNY</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>¥</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72272_t2371454_331">
+      <custrecord_hsbc_currency_name>Hong Kong dollar</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>HKD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>HK$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72273_t2371454_100">
+      <custrecord_hsbc_currency_name>Indonesian rupiah</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>IDR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>Rp</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72274_t2371454_289">
+      <custrecord_hsbc_currency_name>Indian rupee</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>INR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₹</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72276_t2371454_899">
+      <custrecord_hsbc_currency_name>Japanese yen</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>JPY</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>¥</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72277_t2371454_678">
+      <custrecord_hsbc_currency_name>Malaysian ringgit</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>MYR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>RM</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72278_t2371454_143">
+      <custrecord_hsbc_currency_name>New Zealand dollar</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>NZD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72279_t2371454_758">
+      <custrecord_hsbc_currency_name>Philippine peso</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>PHP</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₱</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72280_t2371454_378">
+      <custrecord_hsbc_currency_name>Pakistani rupee</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>PKR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>Rs</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72281_t2371454_263">
+      <custrecord_hsbc_currency_name>Singapore dollar</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>SGD</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>$</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72282_t2371454_124">
+      <custrecord_hsbc_currency_name>South Korean won</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>KRW</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₩</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72283_t2371454_370">
+      <custrecord_hsbc_currency_name>Sri Lankan rupee</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>LKR</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>Rs</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72284_t2371454_531">
+      <custrecord_hsbc_currency_name>Thai baht</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>THB</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>฿</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_72285_t2371454_614">
+      <custrecord_hsbc_currency_name>Vietnamese dong</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>VND</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>₫</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_73785_t2371454_416">
+      <custrecord_hsbc_currency_name>Chinese yuan</custrecord_hsbc_currency_name>
+      <custrecord_hsbc_currency_record>RMB</custrecord_hsbc_currency_record>
+      <custrecord_hsbc_currency_symbol>¥</custrecord_hsbc_currency_symbol>
+      <isinactive>F</isinactive>
+    </instance>
+  </instances>
+  <!-- <permissions>
+    <permission>
+      <permittedlevel>FULL</permittedlevel>
+      <permittedrole>ADMINISTRATOR</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole1096]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole1097]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole1098]</permittedrole>
+      <restriction></restriction>
+    </permission>
+  </permissions> -->
+</customrecordtype>

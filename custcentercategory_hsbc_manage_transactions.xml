@@ -1,0 +1,25 @@
+<centercategory scriptid="custcentercategory_hsbc_manage_transactions">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2]</centertab>
+  <label>Manage Transactions</label>
+  <links>
+    <link>
+      <linklabel>Transactions</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_billpay_trans_ss_day2.customdeploy_hsbc_billpay_trans_ss_day2]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Reports</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_consolidated_reports.customdeploy_hsbc_consolidated_reports]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Application Creation Status</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_hsbc_req_creation_st.customdeploy_hsbc_hsbc_req_creation_cs]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_hsbcerp_approve_reject">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2_accounting]</centertab>
+  <label>Approve or Reject</label>
+  <links>
+    <link>
+      <linklabel>Approve or Reject Application</linklabel>
+      <linkobject>[appid=com.hsbcbank.hsbcerp, scriptid=customscript_hsbc_twc_ext_rep_app_rej_st.customdeploy_hsbc_twc_ext_rep_app_rej_st]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

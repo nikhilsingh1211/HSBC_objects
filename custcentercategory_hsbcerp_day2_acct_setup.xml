@@ -1,0 +1,25 @@
+<centercategory scriptid="custcentercategory_hsbcerp_day2_acct_setup">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2_accounting]</centertab>
+  <label>Setup</label>
+  <links>
+    <link>
+      <linklabel>Agreement</linklabel>
+      <linkobject>[appid=com.hsbcbank.hsbcerp, scriptid=customscript_hsbc_agreement_storing.customdeploy_hsbc_agreement_storing]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Setup Services</linklabel>
+      <linkobject>[appid=com.hsbcbank.hsbcerp, scriptid=customrecord_hsbc_setup_registration]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Configure Services</linklabel>
+      <linkobject>[appid=com.hsbcbank.hsbcerp, scriptid=customrecord_hsbc_configuration]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

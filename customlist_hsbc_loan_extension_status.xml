@@ -1,0 +1,40 @@
+<customlist scriptid="customlist_hsbc_loan_extension_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Extension Status</name>
+  <customvalues>
+    <customvalue scriptid="val_84460_t2371454_124">
+      <isinactive>F</isinactive>
+      <value>Awaiting Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_84461_t2371454_697">
+      <isinactive>F</isinactive>
+      <value>Approved Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_84462_t2371454_878">
+      <isinactive>F</isinactive>
+      <value>Rejected Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_103458_t2371454_281">
+      <isinactive>F</isinactive>
+      <value>Loan Extension Submitted</value>
+    </customvalue>
+    <customvalue scriptid="val_103459_t2371454_405">
+      <isinactive>F</isinactive>
+      <value>Loan Extension Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_103460_t2371454_382">
+      <isinactive>F</isinactive>
+      <value>Loan Extension Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_103472_t2371454_145">
+      <isinactive>F</isinactive>
+      <value>Transmission Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_109808_t2371454_503">
+      <isinactive>F</isinactive>
+      <value>Rejected by HSBC</value>
+    </customvalue>
+  </customvalues>
+</customlist>

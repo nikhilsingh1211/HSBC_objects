@@ -1,0 +1,3150 @@
+<customrecordtype scriptid="customrecord_hsbc_configuration">
+  <accesstype>USEPERMISSIONLIST</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>F</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>F</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>F</enabledle>
+  <enablekeywords>F</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>F</enableoptimisticlocking>
+  <enablesystemnotes>F</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>F</includeinsearchmenu>
+  <includename>F</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>Configuration</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_direct_text">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;p style=&quot;padding:5px; color:#666666; font-size:12px;&quot;&gt;Configure the services you&apos;ve selected for your company.&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Directional Text Config</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_prinfo_msg">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;Select the company you wish to configure operational services for.&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Primary Information Message</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_subsidiary">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Select the subsidiary/company that you want to register&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Company</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-117</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>[scriptid=custrecord_hsbc_sub_registered]</fldfilter>
+          <fldfilterchecked>T</fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel></fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>[scriptid=custrecord_hsbcerp_configured]</fldfilter>
+          <fldfilterchecked>F</fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel></fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_company_hidden_field_con">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>HIDDEN</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Company  </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-117</selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_text">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <!-- <defaultvalue>&lt;style&gt;&#xd;
+.rndbuttoncaps{display:none}&#xd;
+#tr_changeid, #notestxt{display:none}&#xd;
+#tr_secondarychangeid{display:none}&#xd;
+#spn_CREATENEW_d1{display:none}&#xd;
+#spn_secondaryCREATENEW_d1{display:none}&#xd;
+.uir-unroll-tabs-button a {display:none}&#xd;
+#recmachcustrecord_hsbc_trbuyer_parentid_main_form{display:none}&#xd;
+&lt;/style&gt;&#xd;
+&lt;script&gt;&#xd;
+var tableField1 = document.getElementsByClassName(&quot;uir-outside-fields-table&quot;)[1];tableField1.style=&quot;width:100%&quot;;tableField1.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&#xd;
+&lt;/script&gt;&#xd;
+&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right;cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&#xd;
+&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(1); }); return false;&quot;&gt;&#xd;
+&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Configuration Text</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_sub_legalname">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>This is the subsidiary&apos;s legal name, which has already been registered on NetSuite. It must be the name as incorporated/registered.  &#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Registered Company Name</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <!-- <sourcefrom>STDRECORDSUBSIDIARYLEGALNAME</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_config_subsidiary]</sourcelist> -->
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_base_currency">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>This is the subsidiary&apos;s preferred currency, which has already been registered on NetSuite.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Base Currency</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-122</selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <!-- <sourcefrom>STDRECORDSUBSIDIARYCURRENCY</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_config_subsidiary]</sourcelist> -->
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_pri_contname">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Select a person to be the subsidiary&apos;s main contact.&#xd;
+&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>MAIN CONTACT NAME</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-4</selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_primar_cont_name]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_pri_contemail">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>EMAIL</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>This is the main contact&apos;s email address, which has already been registered on NetSuite. We&apos;ll send any alerts or notifications to this person. &#xd;
+&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>T</ismandatory>
+      <isparent>F</isparent>
+      <label>MAIN CONTACT EMAIL</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_primar_cont_email]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_pri_contmobno">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>PHONE</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Please provide a contact number for the main contact.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>MAIN CONTACT MOBILE</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_primar_cont_mobile]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_invpayment_check">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Bill Payments</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_invoice_pay]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcser_check">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Services</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_twc_loans]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcbuyer_check">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Buyer</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_shipment_buyer_loan]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcseller_check">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom>[scriptid=customrecord_hsbc_setup_registration.custrecord_hsbc_shipment_seller_loan]</sourcefrom>
+      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_reg_link_id]</sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_blank_space_invoice_paym">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;pre&gt;   &lt;/pre&gt;&lt;br/&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Blank Space Bill Payments</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_reg_link_id">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Registration Link ID</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>[scriptid=customrecord_hsbc_setup_registration]</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_one_world">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>HIDDEN</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>One World</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_b_emp">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>blank field</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_bankpublickey">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>-----BEGIN PGP PUBLIC KEY BLOCK-----&#xd;
+Version: GnuPG v2&#xd;
+&#xd;
+mQINBF2/8nEBEAC/0jNhv/SLbg2LCMlurOsTNIguT+nGSVIO4140pUBRHKqCe28/&#xd;
+9WPM2Qnu1ZAXbUJgRMgUHn1TJscSbn9HO/eCcOGpJ35ZMDRSfwxNrNCRkG3LsBN9&#xd;
+ZJVTQqXUF7Qhf9qULgnsUgPGAptDlPLb+vYBIo7ib+Wn2UY56hn/1VnyhRGbBHik&#xd;
+hT2+EpTVtEVreagbnLdsNA0iekt9HdnB10UTYZulh9OphMLxOZSxShnlo2nT/Gf8&#xd;
+bKKANX4YdTkhZTcSL8flba5s9WAbxCAMkANrJQpQuaGZHB+ws0kcGnbj6Ol7P+7s&#xd;
+hFsHpIuL1OGBslPDp0dbr/qRkk2mprK83KYWFlOplakyjeHC64CfKQvRTyzPNpZO&#xd;
++Qx2UictfAx55KlByEgWl8qFFfHNVjchWtQto5v5FlIU8UwkB05OxDu5Ye+xb2au&#xd;
+whlzDOjmGu+1EfLv8eXP1IKwKeyaQrJKi1CJXMCF2naOdf8RJRlbGfu+NpkBNIdO&#xd;
+WC0sUo2GJ79lym8ERlEPpM0XZhITpKWZxEETiYuxw3NcM/ZPaAFXjfXdtWbMY50p&#xd;
+Dv0020cQXSk4lToAkhlGZWynI3sRlpbggWzCgmtRylGAOMmpRsrWMPNJQ9/u/YVf&#xd;
+i5eav5B2D/B4gM0TaUlu5vb8eq2wWIs4a+qLHU4ybvS1UAGRb1+gAtFemQARAQAB&#xd;
+tDRoc2JjX2Jpc19zaXRfcGdwX3B1YiA8aHNiY19iaXNfc2l0X3BncF9wdWJAaHNi&#xd;
+Yy5jb20+iQI8BBMBCAAmBQJdv/J2AhkBBgsJCAcDAgYVCAIJCgsFFgIDAQACGyMC&#xd;
+HgECF4AACgkQ1fc889gACOPOFA/+KkrDrVJt5NWiTF1GRT1S4UjHM+AAlrpwGjpQ&#xd;
+2UIv5I4PJFbsgT0jdaveuPkADezQjLcl0kn37EGv4ZzeLABGql7t4kDBGqsjohUW&#xd;
+mDbrkpP8fB5MT7FygbYJNlksVabfz7FYqQK7hwN7aujuXdcSld+K25vEJX/W2sZH&#xd;
+UOLNrlyu8iK+bvz1V+pbY/ei0423ZfRnW9VOOaiBmpjUVinvxZpH5ZkBjWgfLE6F&#xd;
+9kJABm3bptrmiuF/CcpKGna93o9RIrdvkc32n3pz8rkvcDBY5DeiphF59jo0C0Aw&#xd;
+xDLvIv4K4PzjFWn8lv54y3fRhpKsieRACA1dQrzkgv5hbJ1vCP9VWxIrCfgPuwVg&#xd;
+Lls5rd7L2Y2Tv3/YaImsRW4Ta8lAcYJK578rbdUq4bBPq9ZQsoXlRHt+Oqqmg9RM&#xd;
+2bQgBLy9RoSjXMN9uLVGrFHZm3VVLSPC+08gAk1+KbjKMMzODQ7g29pMqzZF2V5h&#xd;
+BIzegdrPEckLBiMH8vmK7uTDuJOZMb7c8/pNAaKvckf/9+0IWKGnZsUUWvRqAqhB&#xd;
+iBUjXnmMEAzfTGfl44btZO4lJkF+K7HuREGRzB/oo+Fbp/M9900mm1OtFl/Wrfw/&#xd;
+g9SuIXmYGxxKGaqVdZB/rbO6Hxtnu+qyJnsZYsWIuddm/EDrpU8/+5g1Y5jmwXCM&#xd;
+g3J6Aj+5Ag0EXb/ycQEQAK6WhwVkFGNytSE7LJHOgnL0weZRZIl+NbHjau1jO5Hm&#xd;
+tc0EyTn2gQ9Vx8sRWg84fUQ+RMqpZ3nbageY4bbSRIVQI0AfjUtnxvr3ieqx+QPo&#xd;
+E6elChaTkR9ebPVyg/OdG+MGcn3QYyhyzGFRtlz3LsFZ2GMlqhG+gRcnrlroX1oY&#xd;
+9QNqgloETFcEhCN2sDnBNc1UJd2TTaWo+8R5cS8nNgrmd4PUldkJM49/IevdVjxG&#xd;
+SW5jxVFoMxInAbYFAi2Va7X5Jh+Bc3PkHAzT8iEuO3gvabaswT+WIvn6osFjvUBk&#xd;
+uYTxlFz1Ah1Ie8MymLtG70yehRmMMf/mhS+oMPpnLT5+dE8fUEQEyyY7TM+5OmRw&#xd;
+C2GS8cBB0HNv8MGel07KytKylTkP95M4PEkDQIqj6mJuzFAIvKC9acw7+Ox+Rwcj&#xd;
+krYuM+xp/cI76RrdgjsXXEkUKmoWpoiInIssppRA30rVQOdFvBVmBmWxnaAVPif5&#xd;
+x7n0L/4/MMeyd2XmxuU4lWNOyMxg376SABVMKyasIKW2kpgJI80yU5rdjaZo4bmY&#xd;
+BDJPrzXU7dmWdx2EP375lyqYmNjnOpM41jOXQ3gd7Ef7rueA4NvhH5/O7jQWFiIl&#xd;
+ARucU9pOSffbL8i0laytSypJ79CPyELlQs7FTz/zDSEHUntNG72wAWMhFx+bZlZV&#xd;
+ABEBAAGJAh8EGAEIAAkFAl2/8ngCGwwACgkQ1fc889gACOO3tQ//RTXytQMx20Ns&#xd;
+el6zXCuMFXSxS1+Ozz0uzC3MUNwCKgvVCY33Q7omnazek7QVPvK8ybvZhfXmfh6a&#xd;
+poWlFLjLQqqZF4Zu9hnjNDZlbU5ko098f7zhMW69zrgM8os3Y3KrS43YHdlRYeRo&#xd;
+cp3RGeobVbzhc4/6TyNwq2UbvyJ2BV1ffOsym+UggMQYxpVo0TQoKfiUw8+IZNpe&#xd;
+mcFJOzwoOZT6zBFgXbGN7tL57dIqwI3U+wgrtTWTDr4/TqJnkm+QAyu0LoA9sGn+&#xd;
+LU1AhW+tayMB2hK3PPcOBPrqG13qiJq8n6V2T5VdEdP0hU+6wA/AHFLdvq4SR7Gs&#xd;
+7JrKYZG2Jkk7u+DQuJpiGj3uWAjrcPV8CLOXCh9WoWBwg/9jyg1YE6Fb9ckJ+QSh&#xd;
+K9zypXTLCIZ7udONgUGDw1spsHgkM9UhzX0hP2c+edUtXTn/mR4d2ntLF1IfmIWx&#xd;
+bApA2xrFrhQ3peZ5s4Lb7lGFdbPnMUr1ctTCYJ7hqkB7ijAtLK/XZi68z8AVCqKu&#xd;
+2rkvwXyf9wGEKUk7auQokCjeUM2UmgVVtd0pqxaHoJvPbs1L14+1AqQL/Yy+J6Y8&#xd;
+gPCmQIv2XyVeb3kWOwdB0PUmh7TXuY8qnPKVDYEWO3NshQ9aGCesBLru5iNeOsX0&#xd;
+1htb3XjoE7ePulLVantB6gj3oQMbMh0=&#xd;
+=+ENU&#xd;
+-----END PGP PUBLIC KEY BLOCK-----</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>HIDDEN</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXTAREA</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Bank Public Key</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_clientprivatekey">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>-----BEGIN PGP PRIVATE KEY BLOCK-----&#xd;
+Version: GnuPG v2&#xd;
+&#xd;
+lQO+BF/IjaYBCAC0ZJvFQeQ6BCc/S6598sO/c5OfxfCZ73W8f85r5g0n5eOLvJoO&#xd;
+T+IocCjXgU5XbkUcPRUhBFWbnbwfUY78bYUq0a+00QAt+sBY83np3JlMu6m3HpLR&#xd;
+Ta/Y6g0ijO9Ilt9AJhYETmRURYvR1+wo+tRRZ/PpR+2iiDtckUOA/6eaqJpgah13&#xd;
+Q+NixvVk+JubAxj5Fgj7y7HsKvNao5sJn7Wcx1H3gS+m/+l4IqHeOFlYYSmvSoEL&#xd;
+e22jVK4mBLj9bsw+lNPUBiOzzO06RlDCaRaFZxZAWBu6DhHhFSobsFxSFhXkbIcC&#xd;
+P9tT8R6OKzkBix2MJl9HqltxHw9nJiSDmtGrABEBAAH+AwMCEJqtmSSTpGW6VPq1&#xd;
+kN5OZ85uEvI8A/n3Q4ek2Ha/Ng4onJMlO9MlNA7sejIf94hAMYHjzW15bwcDmltw&#xd;
+Re7/224nCaVL3ZeU2CbfRlQPBqOZe25uvpDePDj3hOgtvvVvTHn0BbpBreT8KA0M&#xd;
+ZmrU8NOTMAwhJuR9O2uZZq/paqmBJhewpuMCU4sDv4EegfM9GwvStGWGAS1Ol6tx&#xd;
+MYCfAFI7p1lLywg9BAQY1zYf5343zDqE2i4g9z6CZHGGN1BZ7vVkvy+0Tb8muiCa&#xd;
+F2XXwOpXG5zNYhFhk7ZIBk9CaB8yrPuPtxZ2gMSoL+w9MJ0tQys4oroor4kvJeDi&#xd;
+TLdP8Es1PoaQXFTk9zfDNWnU4P72mjg5pTUHeCSnhvnVOPx3kyoeBOJ7dMC6BbZS&#xd;
+6HG7u+8lE2Z/dtwcWfHNkyrtEuiNU3on7BfRojd7JeengEZTkhS3jFG2IQFSwhtD&#xd;
+wcXxUdc0CgofpoT/JOA0A5Rt25furuMBwi4JlR4JrYT6irH/FuGYTKDHWMSb6Pua&#xd;
+rcTAz06QXDu9fk7REdSs+KyyT1uuWNky9qN1VU1HmXm08m84QX5FBo8GFrFlRbOi&#xd;
+hM/nt5askcbkON3UViFd+Q+hIGRQSGrNJmkvBqenZ0aq2MkxM9PGMs4EezFsmKUw&#xd;
+b2LXyteQxO4wbEJFehqEXDUia3Uk8OBt5X4ll8dgqrkxO0ZilodaHgBu4OtyB/YQ&#xd;
+zXhd2sb6C7mihv55ISMUcLEdIfcq2HgH8XeNI8z+qxQK1fC57e4E603q4oRkaNmK&#xd;
+vJGrniUi0xVDoFJ5eo1OyznrN8DX8ovdJOl7pgWm1N5JJVngk95aGm7B46yn5DY7&#xd;
+v6YO4o8swDu/lPLkA2BTjgSuApaENwfP9hZrWTI0QQY8rOFBDKXoTJK8bfYPLPbg&#xd;
+VLQubGF1cmE1IDxsYXVyYS5zLmgubHVvQG5vZXh0ZXJuYWxtYWlsLmhzYmMuY29t&#xd;
+PokBPwQTAQgAKQIbAwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheABQJgCo9SBQkC&#xd;
+IFCaAAoJENTv7hPZHV1CA8YIAJjid8CQqa75ivZCUjJlV1vtS7TFvruVMLBOf7RB&#xd;
+a/bPNkgf2atTZzI3o0CsqL+DliW3+XJuW2wuKWhAMH4rqtBmNgpBGd9JZpJiODWM&#xd;
+UONmHJ+o2LnBHm03cjZeqmQiJTVHy9gYfADljrLSKmUwSUONpkdhCgA0d0X0nu/I&#xd;
+Msj4HOtNOR5tGE5mxy2taYN/u+eicGf2tsPGiSQmabY15VweiWzoa8gSBxA51qVs&#xd;
+ZysgJmZoxvww0PV6UeVx6zSYUszAoebIX9be2uJP2eK4oA1IS7LRDuVNGjJZStuK&#xd;
+3Nxi8JTlMco1gth12IB7sQpPB+bMqQgaUsBT/s/bdAm+NYidA74EX8iNpgEIALsJ&#xd;
+UoPmvfj+TubXN3618VLIVFprmUlx4/P6eP8KKy09cKkO7sSP3TLHvIRgfCB9UcLk&#xd;
+z+pIVzFyw2IV/M7pAbR5n7U4qOwIKcfrCND15YyB8SZF5HYkXtEhzkNbuMCh8qVg&#xd;
+xtV4hYopPa+1cAjfqa4t29EV7DVj+GxSPI/Nh8pyFyxQ1WSyZQGdsq60G92elNi0&#xd;
+zWP1efzaCmMuMa934DmZ2IAwoO21dLN9sYbYaNFTNL3wYSANzjoYmOEYH620EZnX&#xd;
+AFCpKKd6Y1B00PHJOVde/qd4RLkt5+G3BKMEgRylXeIqjqby7v4urvLWibrygu2j&#xd;
+D2ieWHXlp8Sy9Cj2qOEAEQEAAf4DAwIQmq2ZJJOkZbqXaR9CiJaZNP1yF9xfj6uc&#xd;
+XyCLhCgGlhuG9YS/eWvjiQr8QYLRdbrfdQAb946Ezrt0mgZPDZot84hFvHnNMm7G&#xd;
+m/K4ZAaLPf5WGp926dhUVpe7LXp6HSNbHGP9atCuUgYw3MrtIv6CCXIiIcZieD8i&#xd;
+v2IN2oTlmkoz9aVYrwcsxgPtwu/xZyC34spDReoyfDBfLxmiEod6y1L/00+KHbH1&#xd;
+sZOrKjXazzlHXhTYP1q6u0OBWNwQBt517qKObrqiVNwYz1ySZhycINTATukFDL6S&#xd;
+wxUuwv+3T/uS6QQTgGuecWZNb5UGVKgvR6DBwH8hDEHTWreDWeTSgYHAhqLXpBRY&#xd;
+l6CJea4X6rHuv7/4jQbqpyoqAvszuXJ5Mk7WkxtuIW+AxXxL5OqKqintZiFXr0zR&#xd;
+FKCAnwP7P8tG8ak/v7s6RKFdfH98KAWdOIS/8CnUSYJ0X3vYOYXLNpUrbxn7Sh+7&#xd;
+aqLmwlfH5amkin3+FwqdKHdE8kBuKgs79O8/W6juiATfPzFpgBsC4MUhwT2TbvKn&#xd;
+taG2rFSKBzhRAnSA1Pf3YXMvP0xzCov5xFTZekjGCHvi5iuYsUkHqba89A+8mgSg&#xd;
+jwfpH4rq9Gr3WqkRUYBNNlup5hgX32RSB/qNIeNrHbhGSxVSr401qQDO1Vow55z1&#xd;
+alMb1I4ycuFpuyGdQC0W6osE+QAJuZS+t18/QOcLcW12LR7nv4/TWqqnU7Qp8Xt/&#xd;
++RRKWrn3MpoH3wEwcy+f7gCVUN0K39FLxyiLz7GdfZ2aXAWm87d8D/psCL8kqlud&#xd;
+bflZYZ7uEebn5/LahOffUlV5HTtB0KUa+oQxatWdpq5VuyMrrMPGyzrTxlyAyQKI&#xd;
+uHqyWbcTDTv+qDaNPBbG7lKDa0jMjb/qpNXgebvkldnEhU7UiQEfBBgBCAAJBQJf&#xd;
+yI2mAhsMAAoJENTv7hPZHV1CbDAIAIPYCaFRxRng9WyMefM1p+72wKrkMszJz1AM&#xd;
+9RR/XAGENaXQXn0WvT8oA0F2R7bV8eKhiwqfgb/VY4SPio9xXtDnUZ83zIA25CRW&#xd;
+E36BjCS+57T6hTHr77jIETl/XkB/neHCcw9cqa2xq2a+H1UUMgkn5x4CTVgDcOLv&#xd;
+sWJMuI7ZmBCJ9GqgNwcX4kbya3VgnMjTKlpCRSK7oL5An23k4qaRQUgxQP8qVRU0&#xd;
+n0hMLsE+GjEJ2lDPW2kwRueV8czx0Q58kF4vv/3+OQqhXyIIT2iZqfnHpgJnxTQA&#xd;
++f9Ea/Boxnx01U1bUBCLSpsLJ1DN8ddsENrjw/jva3nzCCKXNl0=&#xd;
+=afn8&#xd;
+-----END PGP PRIVATE KEY BLOCK-----</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>HIDDEN</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXTAREA</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Client Private Key</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_event_notification_role">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>HIDDEN</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>MULTISELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Event Notification Role</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>[scriptid=customlist_hsbc_event_notifiy_role]</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_invoice_payment_help">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <!-- <defaultvalue>&lt;script&gt;document.getElementById(&apos;custrecord_hsbc_invoice_payment_help_fs&apos;).parentElement.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right; cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(2); }); return false;&quot;&gt;&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Bill Payments Help Text</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_980]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_invpay_msg">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&apos;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px; width:600%;&quot;&gt;Let us know the following to start using Bill Payments.&lt;p&gt;&apos;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>T</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Invoice Payment Message</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_980]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_approval_routing">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Check this box if your payment application will require approval.&#xd;
+With approval routing, once a request has been made, it will need to be completed by a company approver – usually a manager.&#xd;
+Please make sure that you know who your company approver is.&#xd;
+&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Approval Routing</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_980]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_approver_role">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>With approval routing, once an application has been made, it will need to be completed by your company&apos;s approver.&#xd;
+Please make sure that you know who your company approver is.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Approver Role  </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-118</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_980]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_defbank_account">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>This account will be charged for all bill payments.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Bank Account</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_980]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>1</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_column_space">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;pre style=&quot;line-height:2px&quot;&gt; &lt;/pre&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Column Space</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_interestaccrual">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Automated Interest Accrual</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_interest_frequency">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Select Frequency</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>[scriptid=customlist_hsbc_interest_accrualcycle]</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_help_text">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <!-- <defaultvalue>&lt;script&gt;document.getElementById(&apos;custrecord_hsbc_buyer_help_text_fs&apos;).parentElement.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right; cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(3); }); return false;&quot;&gt;&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Buyer Help Text</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcbuyer_msg">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;Enter the information below to enable TWC-Buyer Loans.&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Buyer Message</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twc_approuting">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Check this box if your Trade Working Capital Loan applications will require approval. &#xd;
+With approval routing, once a request has been made, it will need to be completed by a company approver – usually a manager.&#xd;
+Please make sure that you know who your company approver is.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Approval Routing </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twc_defapprole">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Every new Trade Working Capital Loan application will need to be completed by your company&apos;s approver – usually a manager.&#xd;
+Please make sure that you know who your company approver is.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default TWC Approver Role Buyer</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-118</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_tradeacc_buyermsg">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;Let us know your trade account information here. All fields are mandatory.&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Trade Account Buyer Msg</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_buyer_autoacct_entry">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Check this checkbox if you want to record loan liability using Journal Entry automatically&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Automated Accounting Entries</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_buyer_default_ocl">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault>SUBSIDIARY</dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Define the default other current liabity account&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Other Current Liability Account</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_buyer_default_clracc">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault>SUBSIDIARY</dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Define the default other current liabity account.This should be other current liability type account&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Clearing Account</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_loan_liability">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;LOAN LIABILITY&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Loan Liability </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_def_expense_acc">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Expense Account</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>13</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_buyer_default_ocl_se">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Other Current Liability Account Service</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_def_bank_account">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Bank Account Buyer</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>1</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_buyer_default_clr_se">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Clearing Account Service</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_intetrestcharges">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;INTEREST CHARGES&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Interest Charges</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <!-- <customrecordcustomfield scriptid="custrecord_hsbc_buyer_service_charges">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;SERVICE CHARGES&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Service Charges</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield> -->
+    <customrecordcustomfield scriptid="custrecord_hsbc_column_sp">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;pre style=&quot;line-height:2px&quot;&gt; &lt;/pre&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Column Space 2</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_column_space_3">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Culumn Space 3</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_space_4">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Space 4</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_space_5">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Space 5</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_help_text">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <!-- <defaultvalue>&lt;script&gt;document.getElementById(&apos;custrecord_hsbc_seller_help_text_fs&apos;).parentElement.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right; cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(4); }); return false;&quot;&gt;&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Seller Help Text</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcseller_msg">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;Enter the information below to enable TWC-Seller Loans.&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Seller Message</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcs_approuting">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Check this box if your Trade Working Capital Loan applications will require approval. &#xd;
+With approval routing, once a request has been made, it will need to be completed by a company approver – usually a manager.&#xd;
+Please make sure that you know who your company approver is.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Approval Routing  </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_twcs_approleselle">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Every new Trade Working Capital Loan application will need to be completed by your company&apos;s approver – usually a manager.&#xd;
+Please make sure that you know who your company approver is.&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default TWC Approver Role Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-118</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_seller_auto_acc_entr">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Check this checkbox if you want to record loan liability using Journal Entry automatically&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Automated Accounting Entries </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_seller_def_ocl">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault>SUBSIDIARY</dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Define the default other current liabity account&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Other Current Liability Account </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_config_tradeacc_selermsg">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;Let us know your trade account information here. All fields are mandatory.&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Trade Account Seller Msg</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_interestaccrual">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>CHECKBOX</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Automated Interest Accrual Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_interest_frequen">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Select Frequency Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>[scriptid=customlist_hsbc_interest_accrualcycle]</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_loan_liability">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;LOAN LIABILITY&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Loan Liability Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_interestcharges">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;INTEREST CHARGES&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Interest Charges Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_service_charges">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;SERVICE CHARGES&lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Service Charges Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_seller_default_clrac">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Define the default other current liabity account.This should be other current liability type account</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Clearing Account Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_def_bank_account">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>Define the default other current liabity account</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Bank Account Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>1</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_def_expense_acc">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>LOCKED</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Expense Account Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>13</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_columnspace3">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Column Space 3</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_column_sp4">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;pre style=&quot;line-height:2px&quot;&gt; &lt;/pre&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>column space 4</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_seller_default_ocl_s">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Other Current Liability Account Seller </label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+      <customfieldfilters>
+        <customfieldfilter>
+          <fldcomparefield></fldcomparefield>
+          <fldfilter>STDRECORDACCOUNTACCTTYPE</fldfilter>
+          <fldfilterchecked></fldfilterchecked>
+          <fldfiltercomparetype>EQ</fldfiltercomparetype>
+          <fldfilternotnull>F</fldfilternotnull>
+          <fldfilternull>F</fldfilternull>
+          <fldfiltersel>8</fldfiltersel>
+          <fldfilterval></fldfilterval>
+        </customfieldfilter>
+      </customfieldfilters>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_twc_seller_default_clra_">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>SELECT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>Default Clearing Account Service Seller</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-112</selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_col_space_5">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;br/&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>column space 5</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_aje_tnc">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;script&gt;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; &quot;&gt; The Automated Accounting Entries feature allows all Trade Working Capital loans liability, expenses and interest accrual information to auto populate into your financial reports in your Oracle NetSuite instance.&lt;br/&gt;By checking this box, you fully authorise HSBC to populate this information in your financial reports and you confirm that you have read, understood, and accept the Terms and Conditions which can be accessed and read  &lt;a href=&quot;/app/site/hosting/scriptlet.nl?script=customscript_hsbc_aje_terms_condition&amp;deploy=customdeploy_hsbc_aje_terms&quot; onclick=&quot;window.open(this.href,&apos;newwindow&apos;, &apos;toolbar=no,addressbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=800, height=400, top=screen.height / 2 - 600 / 2,left = screen.width / 2 - 1000 / 2&apos;); return false;&quot;&gt;here&lt;/a&gt;. You can revoke this feature at any time following which you will have to manually make entries towards Trade Working Capital loans liability, expenses and interest accruals in your financial reports. &lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Buyer AJE T and C</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_seller_aje_tnc">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;script&gt;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; &quot;&gt; The Automated Accounting Entries feature allows all Trade Working Capital loans liability, expenses and interest accrual information to auto populate into your financial reports in your Oracle NetSuite instance.&lt;br/&gt;By checking this box, you fully authorise HSBC to populate this information in your financial reports and you confirm that you have read, understood, and accept the Terms and Conditions which can be accessed and read  &lt;a href=&quot;/app/site/hosting/scriptlet.nl?script=customscript_hsbc_aje_terms_condition&amp;deploy=customdeploy_hsbc_aje_terms&quot; onclick=&quot;window.open(this.href,&apos;newwindow&apos;, &apos;toolbar=no,addressbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=800, height=400, top=screen.height / 2 - 600 / 2,left = screen.width / 2 - 1000 / 2&apos;); return false;&quot;&gt;here&lt;/a&gt;. You can revoke this feature at any time following which you will have to manually make entries towards Trade Working Capital loans liability, expenses and interest accruals in your financial reports. &lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Seller AJE T and C</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <permissions>
+    <permission>
+      <permittedlevel>EDIT</permittedlevel>
+      <permittedrole>ADMINISTRATOR</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole_hsbc_app_ap_clerk]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <!-- <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole1096]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole1097]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole1098]</permittedrole>
+      <restriction></restriction>
+    </permission> -->
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole_hsbc_app_ap_manager]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole_hsbcapp_ar_clerk]</permittedrole>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permittedlevel>VIEW</permittedlevel>
+      <permittedrole>[scriptid=customrole_hsbc_app_ar_manager]</permittedrole>
+      <restriction></restriction>
+    </permission>
+  </permissions>
+  <subtabs>
+    <subtab scriptid="tab_hsbc_t2371454_980">
+      <tabparent></tabparent>
+      <tabtitle>Bill Payments</tabtitle>
+    </subtab>
+    <subtab scriptid="tab_hsbc_t2371454_935">
+      <tabparent></tabparent>
+      <tabtitle>TWC-Buyer Loans</tabtitle>
+    </subtab>
+    <subtab scriptid="tab_hsbc_t2371454_480">
+      <tabparent></tabparent>
+      <tabtitle>TWC-Seller Loans</tabtitle>
+    </subtab>
+  </subtabs>
+</customrecordtype>

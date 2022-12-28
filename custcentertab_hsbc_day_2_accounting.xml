@@ -1,0 +1,10 @@
+<centertab scriptid="custcentertab_hsbc_day_2_accounting">
+  <allcustomers>F</allcustomers>
+  <allemployees>F</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <allvendors>F</allvendors>
+  <audslctrole></audslctrole>
+  <center>ACCOUNTCENTER</center>
+  <label>HSBC</label>
+</centertab>

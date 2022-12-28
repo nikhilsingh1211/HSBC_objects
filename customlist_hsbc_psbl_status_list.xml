@@ -1,0 +1,68 @@
+<customlist scriptid="customlist_hsbc_psbl_status_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC PSBL Status List</name>
+  <customvalues>
+    <customvalue scriptid="val_75984_t2371454_218">
+      <isinactive>F</isinactive>
+      <value>Awaiting Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_75985_t2371454_197">
+      <isinactive>F</isinactive>
+      <value>Approved Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_75986_t2371454_312">
+      <isinactive>F</isinactive>
+      <value>Rejected Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_75987_t2371454_999">
+      <isinactive>F</isinactive>
+      <value>Loan Request Submitted </value>
+    </customvalue>
+    <customvalue scriptid="val_75988_t2371454_339">
+      <isinactive>F</isinactive>
+      <value>Loan Request Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_75989_t2371454_946">
+      <isinactive>F</isinactive>
+      <value>Loan Request Cancelled</value>
+    </customvalue>
+    <customvalue scriptid="val_75990_t2371454_402">
+      <isinactive>F</isinactive>
+      <value>Disbursed</value>
+    </customvalue>
+    <customvalue scriptid="val_75991_t2371454_156">
+      <isinactive>F</isinactive>
+      <value>Vendor Bill Paid</value>
+    </customvalue>
+    <customvalue scriptid="val_78281_t2371454_640">
+      <isinactive>F</isinactive>
+      <value>Transmission Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_78530_t2371454_595">
+      <isinactive>F</isinactive>
+      <value>Rejected by HSBC</value>
+    </customvalue>
+    <customvalue scriptid="val_78602_t2371454_348">
+      <isinactive>F</isinactive>
+      <value>Settled</value>
+    </customvalue>
+    <customvalue scriptid="val_80375_t2371454_861">
+      <isinactive>F</isinactive>
+      <value>Payment Setteled</value>
+    </customvalue>
+    <customvalue scriptid="val_80376_t2371454_259">
+      <isinactive>F</isinactive>
+      <value>Pending Repayment</value>
+    </customvalue>
+    <customvalue scriptid="val_103192_t2371454_836">
+      <isinactive>F</isinactive>
+      <value>Settlement Submitted</value>
+    </customvalue>
+    <customvalue scriptid="val_103193_t2371454_952">
+      <isinactive>F</isinactive>
+      <value>Extension Submitted</value>
+    </customvalue>
+  </customvalues>
+</customlist>

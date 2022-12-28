@@ -1,0 +1,19 @@
+<centercategory scriptid="custcentercategory_hsbc_repay_extension">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2]</centertab>
+  <label>TWC Loans</label>
+  <links>
+    <link>
+      <linklabel>TWC Loan Application</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_psbl_loan_req_day2_st.customdeploy_hsbc_psbl_loan_req_day2_st]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Settle or Extend TWC Loan</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_twc_repay_extend_st.customdeploy_hsbc_twc_repay_extend_st]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

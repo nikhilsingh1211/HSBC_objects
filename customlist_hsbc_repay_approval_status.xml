@@ -1,0 +1,40 @@
+<customlist scriptid="customlist_hsbc_repay_approval_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC SettlementApproval Status</name>
+  <customvalues>
+    <customvalue scriptid="val_82820_t2371454_636">
+      <isinactive>F</isinactive>
+      <value>Awaiting approval</value>
+    </customvalue>
+    <customvalue scriptid="val_82821_t2371454_515">
+      <isinactive>F</isinactive>
+      <value>Approved internally</value>
+    </customvalue>
+    <customvalue scriptid="val_82822_t2371454_234">
+      <isinactive>F</isinactive>
+      <value>Rejected Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_103456_t2371454_384">
+      <isinactive>F</isinactive>
+      <value>Loan Settlement Submitted</value>
+    </customvalue>
+    <customvalue scriptid="val_103457_t2371454_770">
+      <isinactive>F</isinactive>
+      <value>Loan Settlement Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_111119_t2371454_597">
+      <isinactive>F</isinactive>
+      <value>Loan Settlement Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_103471_t2371454_575">
+      <isinactive>F</isinactive>
+      <value>Transmission Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_109809_t2371454_575">
+      <isinactive>F</isinactive>
+      <value>Rejected By HSBC</value>
+    </customvalue>
+  </customvalues>
+</customlist>

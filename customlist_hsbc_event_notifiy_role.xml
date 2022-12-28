@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_hsbc_event_notifiy_role">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Event Notification Role</name>
+  <customvalues>
+    <customvalue scriptid="val_87978_t2371454_321">
+      <isinactive>F</isinactive>
+      <value>HSBC App - AP Clerk</value>
+    </customvalue>
+    <customvalue scriptid="val_87979_t2371454_907">
+      <isinactive>F</isinactive>
+      <value>HSBC App - AP Manager</value>
+    </customvalue>
+    <customvalue scriptid="val_87980_t2371454_147">
+      <isinactive>F</isinactive>
+      <value>HSBC App - AR Clerk</value>
+    </customvalue>
+    <customvalue scriptid="val_87981_t2371454_170">
+      <isinactive>F</isinactive>
+      <value>HSBC App - AR Manager</value>
+    </customvalue>
+  </customvalues>
+</customlist>

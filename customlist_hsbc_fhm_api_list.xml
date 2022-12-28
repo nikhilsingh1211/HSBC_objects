@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_hsbc_fhm_api_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC FHM API List</name>
+  <customvalues>
+    <customvalue scriptid="val_93128_t2371454_711">
+      <isinactive>F</isinactive>
+      <value>Data Sharing Consent Capture</value>
+    </customvalue>
+    <customvalue scriptid="val_93129_t2371454_738">
+      <isinactive>F</isinactive>
+      <value>Account Receivables</value>
+    </customvalue>
+    <customvalue scriptid="val_93130_t2371454_547">
+      <isinactive>F</isinactive>
+      <value>Account Payables</value>
+    </customvalue>
+    <customvalue scriptid="val_93131_t2371454_504">
+      <isinactive>F</isinactive>
+      <value>Credit Notes</value>
+    </customvalue>
+    <customvalue scriptid="val_93132_t2371454_736">
+      <isinactive>F</isinactive>
+      <value>Inventory</value>
+    </customvalue>
+    <customvalue scriptid="val_93133_t2371454_680">
+      <isinactive>F</isinactive>
+      <value>Post Shipment Loan - Buyer/Seller</value>
+    </customvalue>
+    <customvalue scriptid="val_93134_t2371454_945">
+      <isinactive>F</isinactive>
+      <value>Financial Statements Data</value>
+    </customvalue>
+  </customvalues>
+</customlist>

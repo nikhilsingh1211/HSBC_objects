@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_hsbc_request_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Request Status</name>
+  <customvalues>
+    <customvalue scriptid="val_68301_t2371454_913">
+      <isinactive>F</isinactive>
+      <value>Pending Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_68302_t2371454_441">
+      <isinactive>F</isinactive>
+      <value>Approved Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_68303_t2371454_755">
+      <isinactive>F</isinactive>
+      <value>Rejected Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_68304_t2371454_299">
+      <isinactive>F</isinactive>
+      <value>Transmission Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_68305_t2371454_201">
+      <isinactive>F</isinactive>
+      <value>Payment Initiated</value>
+    </customvalue>
+    <customvalue scriptid="val_68306_t2371454_700">
+      <isinactive>F</isinactive>
+      <value>Payment Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_68307_t2371454_262">
+      <isinactive>F</isinactive>
+      <value>Payment Accepted</value>
+    </customvalue>
+  </customvalues>
+</customlist>

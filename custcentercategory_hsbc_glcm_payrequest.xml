@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_hsbc_glcm_payrequest">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2]</centertab>
+  <label>Request Bill Payments</label>
+  <links>
+    <link>
+      <linklabel>Request Bill Payments</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_invoicepaymentscreen.customdeploy_hsbc_invoicepaymentscreen]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

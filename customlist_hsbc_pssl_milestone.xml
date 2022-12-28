@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_hsbc_pssl_milestone">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC PSBL PSSL - Milestone</name>
+  <customvalues>
+    <customvalue scriptid="val_78462_t2371454_657">
+      <isinactive>F</isinactive>
+      <value>Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_78463_t2371454_784">
+      <isinactive>F</isinactive>
+      <value>Transmission</value>
+    </customvalue>
+    <customvalue scriptid="val_78464_t2371454_254">
+      <isinactive>F</isinactive>
+      <value>Payment</value>
+    </customvalue>
+    <customvalue scriptid="val_104749_t2371454_498">
+      <isinactive>F</isinactive>
+      <value>Settlement</value>
+    </customvalue>
+    <customvalue scriptid="val_104750_t2371454_243">
+      <isinactive>F</isinactive>
+      <value>Extension</value>
+    </customvalue>
+  </customvalues>
+</customlist>

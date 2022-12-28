@@ -1,0 +1,64 @@
+<customrecordtype scriptid="customrecord_hsbc_roles_list">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>F</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>F</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>F</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <description>To identify HSBC Role, whether its AP role or AR role</description>
+  <enabledle>F</enabledle>
+  <enablekeywords>F</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>F</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>F</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>HSBC Roles</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <instances>
+    <instance scriptid="val_180197_t2371454_369">
+      <isinactive>F</isinactive>
+      <name>Administrator</name>
+    </instance>
+    <instance scriptid="val_180198_t2371454_262">
+      <isinactive>F</isinactive>
+      <name>AP</name>
+    </instance>
+    <instance scriptid="val_180199_t2371454_962">
+      <isinactive>F</isinactive>
+      <name>AR</name>
+    </instance>
+    <instance scriptid="val_101541_t2487877_741">
+      <isinactive>F</isinactive>
+      <name>AP - Manager</name>
+    </instance>
+    <instance scriptid="val_101542_t2487877_851">
+      <isinactive>F</isinactive>
+      <name>AR - Manager</name>
+    </instance>
+  </instances>
+</customrecordtype>

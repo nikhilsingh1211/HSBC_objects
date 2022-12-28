@@ -1,0 +1,76 @@
+<customlist scriptid="customlist_hsbc_approval_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Approval Status</name>
+  <customvalues>
+    <customvalue scriptid="val_67794_t2371454_431">
+      <isinactive>F</isinactive>
+      <value>Awaiting Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_67795_t2371454_912">
+      <isinactive>F</isinactive>
+      <value>Approved Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_67796_t2371454_745">
+      <isinactive>F</isinactive>
+      <value>Rejected Internally</value>
+    </customvalue>
+    <customvalue scriptid="val_68564_t2371454_594">
+      <isinactive>F</isinactive>
+      <value>Transmission Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_68565_t2371454_627">
+      <isinactive>F</isinactive>
+      <value>Payment Initiated</value>
+    </customvalue>
+    <customvalue scriptid="val_68566_t2371454_925">
+      <isinactive>F</isinactive>
+      <value>Payment Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_68567_t2371454_957">
+      <isinactive>F</isinactive>
+      <value>Payment Accepted</value>
+    </customvalue>
+    <customvalue scriptid="val_68571_t2371454_854">
+      <isinactive>F</isinactive>
+      <value>Payment Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_68653_t2371454_695">
+      <isinactive>F</isinactive>
+      <value>Payment Progress</value>
+    </customvalue>
+    <customvalue scriptid="val_68572_t2371454_703">
+      <isinactive>F</isinactive>
+      <value>Settlement In Progress</value>
+    </customvalue>
+    <customvalue scriptid="val_68573_t2371454_516">
+      <isinactive>F</isinactive>
+      <value>Settlement Completed</value>
+    </customvalue>
+    <customvalue scriptid="val_68574_t2371454_612">
+      <isinactive>F</isinactive>
+      <value>Vendor Bill Paid</value>
+    </customvalue>
+    <customvalue scriptid="val_68575_t2371454_167">
+      <isinactive>F</isinactive>
+      <value>Payment Request Completed</value>
+    </customvalue>
+    <customvalue scriptid="val_75970_t2371454_446">
+      <isinactive>F</isinactive>
+      <value>Rejected by HSBC</value>
+    </customvalue>
+    <customvalue scriptid="val_81416_t2371454_480">
+      <isinactive>T</isinactive>
+      <value>Payment Disbursed</value>
+    </customvalue>
+    <customvalue scriptid="val_81417_t2371454_565">
+      <isinactive>T</isinactive>
+      <value>Pending Repayment</value>
+    </customvalue>
+    <customvalue scriptid="val_89797_t2371454_741">
+      <isinactive>T</isinactive>
+      <value>Partial Payment</value>
+    </customvalue>
+  </customvalues>
+</customlist>

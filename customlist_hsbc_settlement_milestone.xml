@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_hsbc_settlement_milestone">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Settlement Milestone</name>
+  <customvalues>
+    <customvalue scriptid="val_104732_t2371454_169">
+      <isinactive>F</isinactive>
+      <value>Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_104733_t2371454_943">
+      <isinactive>F</isinactive>
+      <value>Transmission</value>
+    </customvalue>
+    <customvalue scriptid="val_104734_t2371454_551">
+      <isinactive>F</isinactive>
+      <value>Settlement</value>
+    </customvalue>
+  </customvalues>
+</customlist>

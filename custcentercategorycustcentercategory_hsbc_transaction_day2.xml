@@ -1,0 +1,5 @@
+<centercategory scriptid="custcentercategorycustcentercategory_hsbc_transaction_day2">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2_accounting]</centertab>
+  <label>Transaction</label>
+</centercategory>

@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_hsbc_service_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC Service Type</name>
+  <customvalues>
+    <customvalue scriptid="val_91380_t2371454_910">
+      <isinactive>F</isinactive>
+      <value>Bill Payments</value>
+    </customvalue>
+    <customvalue scriptid="val_91381_t2371454_762">
+      <isinactive>F</isinactive>
+      <value>TWC Buyer Loan</value>
+    </customvalue>
+    <customvalue scriptid="val_91382_t2371454_431">
+      <isinactive>F</isinactive>
+      <value>TWC Buyer Loan Settlement</value>
+    </customvalue>
+    <customvalue scriptid="val_91383_t2371454_463">
+      <isinactive>F</isinactive>
+      <value>TWC Buyer Loan Extension</value>
+    </customvalue>
+    <customvalue scriptid="val_91384_t2371454_783">
+      <isinactive>F</isinactive>
+      <value>TWC Seller Loan</value>
+    </customvalue>
+    <customvalue scriptid="val_91385_t2371454_620">
+      <isinactive>F</isinactive>
+      <value>TWC Seller Loan Settlement</value>
+    </customvalue>
+    <customvalue scriptid="val_91386_t2371454_288">
+      <isinactive>F</isinactive>
+      <value>TWC Seller Loan Extension</value>
+    </customvalue>
+  </customvalues>
+</customlist>

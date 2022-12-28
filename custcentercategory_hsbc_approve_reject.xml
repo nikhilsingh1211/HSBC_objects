@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_hsbc_approve_reject">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_hsbc_day_2]</centertab>
+  <label>Approve or Reject</label>
+  <links>
+    <link>
+      <linklabel>Approve or Reject Application</linklabel>
+      <linkobject>[scriptid=customscript_hsbc_twc_ext_rep_app_rej_st.customdeploy_hsbc_twc_ext_rep_app_rej_st]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

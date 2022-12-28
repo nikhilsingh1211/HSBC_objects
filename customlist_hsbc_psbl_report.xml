@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_hsbc_psbl_report">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>HSBC PSBL Report</name>
+  <customvalues>
+    <customvalue scriptid="val_74040_t2371454_601">
+      <isinactive>F</isinactive>
+      <value>Loan Summary</value>
+    </customvalue>
+    <customvalue scriptid="val_74041_t2371454_911">
+      <isinactive>F</isinactive>
+      <value>Loan Details</value>
+    </customvalue>
+  </customvalues>
+</customlist>
