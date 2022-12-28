@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_twc_pssl_approv_reject">
+  <description></description>
+  <isinactive>T</isinactive>
+  <name>HSBC_TWC_PSSL_Approve_Reject_ST</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_twc_pssl_repay_extend_approve_reject_ST.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_twc_pssl_approv_reject">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>HSBC_TWC_PSSL_Approve_Reject_ST</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

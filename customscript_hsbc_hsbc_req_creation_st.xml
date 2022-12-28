@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_hsbc_req_creation_st">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC Request Creation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_request_creation_Day2.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_hsbc_req_creation_cs">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HSBC Request Creation</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

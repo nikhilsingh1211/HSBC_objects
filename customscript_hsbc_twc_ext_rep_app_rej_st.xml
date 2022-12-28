@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_twc_ext_rep_app_rej_st">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC TWC Ext Repay Approve Reject ST</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_twc_rep_ext_app_rej_ST.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_twc_ext_rep_app_rej_st">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HSBC TWC Ext Repay Approve Reject ST</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

@@ -1,0 +1,38 @@
+<scheduledscript scriptid="customscript_hsbc_psbl_query_detail_api">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC PSBL - QUERY DETAIL API</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Scheduled/hsbc_psbl_status_SS_DAY2.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_psbl_query_detail_api">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>HSBC PSBL - QUERY DETAIL API</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT15M</repeat>
+          <startdate>2022-11-23</startdate>
+          <starttime>00:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_hsbc_psbl_query_detail_adho">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC PSBL - QUERY DETAIL API Adhoc</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-04-27</startdate>
+          <starttime>08:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

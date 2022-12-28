@@ -1,0 +1,38 @@
+<scheduledscript scriptid="customscript_hsbc_glcm_alert_001">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC GLCM Alert 001</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Scheduled/hsbc_glcm_alert_001.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_glcm_001_scheduled">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>HSBC GLCM Alert 001 2</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2022-11-23</startdate>
+          <starttime>18:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_hsbc_glcm_alert_001">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC GLCM Alert 001</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2021-09-24</startdate>
+          <starttime>07:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_backend_bill_update_su">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC - Backend Bill Update SU</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_backend_billupdate_su.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_backendbill_update_su">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>HSBC - Backend Bill Update SU</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

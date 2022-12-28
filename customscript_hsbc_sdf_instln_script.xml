@@ -1,0 +1,18 @@
+<sdfinstallationscript scriptid="customscript_hsbc_sdf_instln_script">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC SDF Installation Script</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/HSBC_SDF_Installation_Script.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_sdf_instln_script">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>HSBC SDF Installation Script</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</sdfinstallationscript>

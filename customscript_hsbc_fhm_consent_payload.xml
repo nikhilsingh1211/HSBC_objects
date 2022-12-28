@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_hsbc_fhm_consent_payload">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC FHM Consent Payload</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Scheduled/hsbc_fhm_consent_payloadcreation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_fhm_consent_payload">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC FHM Consent Payload</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-02-22</startdate>
+          <starttime>02:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

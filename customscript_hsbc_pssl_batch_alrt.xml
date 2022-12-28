@@ -1,0 +1,92 @@
+<scheduledscript scriptid="customscript_hsbc_pssl_batch_alrt">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC PSSL Loan batch Alerts</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Scheduled/hsbc_pssl_Loan_Pending_Aprvl_Notification_SCH.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_pssl_tran_pend_nonsch">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC PSSL Loan Transmission Pending nonSCH</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-10-11</startdate>
+          <starttime>08:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>HSBC PSSL Loan Pending Approval Notification</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2022-11-23</startdate>
+          <starttime>18:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_hsbc_pssl_tran_pending_aler">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>HSBC PSSL Loan Tranmission Pending SCH</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2022-11-23</startdate>
+          <starttime>18:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_loan_pending_app_nonsch">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC PSSL Loan Pending Approval Notification non sch</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2021-10-07</startdate>
+          <starttime>08:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_loan_due_alert">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>HSBC PSSL Loan Request Due Alert</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2022-11-23</startdate>
+          <starttime>18:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_loan_due_alert_nonsch">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC PSSL Loan Due Alert Non Sch</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2021-10-07</startdate>
+          <starttime>08:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

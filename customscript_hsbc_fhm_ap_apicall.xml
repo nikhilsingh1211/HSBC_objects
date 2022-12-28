@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_hsbc_fhm_ap_apicall">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC FHM Account Payable API Call</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Scheduled/HSBC_FHM_AP_API_Call.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_fhm_api_ap_call">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC FHM Account Payable API CALL</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-02-26</startdate>
+          <starttime>02:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

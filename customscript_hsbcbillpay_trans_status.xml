@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbcbillpay_trans_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC Billpayment_transaction_status</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/HSBC_BillPaymentStatusList_SUT.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_billpay_transa_status">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>HSBC Billpayment_transaction_status</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

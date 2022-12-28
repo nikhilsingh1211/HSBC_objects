@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_hsbc_fhm_tradeloan_apicall">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC FHM Trade Loan API Call</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Scheduled/HSBC_FHM_TradeLoan_API_Call.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_fhm_trade_buyer_selle">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>HSBC FHM Trade Loan API Call</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-02-26</startdate>
+          <starttime>02:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

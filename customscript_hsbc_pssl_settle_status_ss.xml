@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_pssl_settle_status_ss">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC - PSSL Settle Status SS Day2</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_pssl_settle_status_ss.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_pssl_settle_status_ss">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HSBC - PSSL Settle Status SS</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

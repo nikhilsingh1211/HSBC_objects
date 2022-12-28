@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_pssl_req_creation_sut">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC PSSL Request Creation SUT</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_pssl_request_creation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_pssl_req_creation_sut">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HSBC PSSL Request Creation SUT</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

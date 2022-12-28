@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_invpay_rejscrn_day2_ss">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC Rejection Screen Day 2 SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_inv_pay_rej_screen_day2_STLT.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_invpay_rejscrn_day2_ss">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HSBC Rejection Screen Day 2 SS</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

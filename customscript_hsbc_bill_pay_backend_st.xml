@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_hsbc_bill_pay_backend_st">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC - Bill Payment Backend ST</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Suitelet/hsbc_billpay_backend_ST.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hsbc_bill_pay_backend_st">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HSBC - Bill Payment Backend ST</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
