@@ -9,7 +9,6 @@
   <allowquickadd>F</allowquickadd>
   <allowquicksearch>F</allowquicksearch>
   <allowuiaccess>T</allowuiaccess>
-  <customsegment></customsegment>
   <description></description>
   <enabledle>F</enabledle>
   <enablekeywords>T</enablekeywords>
@@ -2658,7 +2657,7 @@
           <fldfiltercomparetype>EQ</fldfiltercomparetype>
           <fldfilternotnull>F</fldfilternotnull>
           <fldfilternull>F</fldfilternull>
-          <fldfiltersel>13</fldfiltersel>
+          <fldfiltersel>13|15</fldfiltersel>
           <fldfilterval></fldfilterval>
         </customfieldfilter>
       </customfieldfilters>

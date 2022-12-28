@@ -9,7 +9,6 @@
   <allowquickadd>F</allowquickadd>
   <allowquicksearch>F</allowquicksearch>
   <allowuiaccess>T</allowuiaccess>
-  <customsegment></customsegment>
   <description></description>
   <enabledle>F</enabledle>
   <enablekeywords>F</enablekeywords>
@@ -227,21 +226,7 @@
       <checkspelling>F</checkspelling>
       <defaultchecked>F</defaultchecked>
       <defaultselection></defaultselection>
-      <!-- <defaultvalue>&lt;style&gt;&#xd;
-.rndbuttoncaps{display:none}&#xd;
-#tr_changeid, #notestxt{display:none}&#xd;
-#tr_secondarychangeid{display:none}&#xd;
-#spn_CREATENEW_d1{display:none}&#xd;
-#spn_secondaryCREATENEW_d1{display:none}&#xd;
-.uir-unroll-tabs-button a {display:none}&#xd;
-#recmachcustrecord_hsbc_trbuyer_parentid_main_form{display:none}&#xd;
-&lt;/style&gt;&#xd;
-&lt;script&gt;&#xd;
-var tableField1 = document.getElementsByClassName(&quot;uir-outside-fields-table&quot;)[1];tableField1.style=&quot;width:100%&quot;;tableField1.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&#xd;
-&lt;/script&gt;&#xd;
-&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right;cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&#xd;
-&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(1); }); return false;&quot;&gt;&#xd;
-&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <defaultvalue></defaultvalue>
       <description></description>
       <displayheight></displayheight>
       <displaytype>NORMAL</displaytype>
@@ -308,8 +293,8 @@ var tableField1 = document.getElementsByClassName(&quot;uir-outside-fields-table
       <selectrecordtype></selectrecordtype>
       <showinlist>T</showinlist>
       <sourcefilterby></sourcefilterby>
-      <!-- <sourcefrom>STDRECORDSUBSIDIARYLEGALNAME</sourcefrom>
-      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_config_subsidiary]</sourcelist> -->
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
       <storevalue>T</storevalue>
       <subtab></subtab>
     </customrecordcustomfield>
@@ -348,8 +333,8 @@ var tableField1 = document.getElementsByClassName(&quot;uir-outside-fields-table
       <selectrecordtype>-122</selectrecordtype>
       <showinlist>T</showinlist>
       <sourcefilterby></sourcefilterby>
-      <!-- <sourcefrom>STDRECORDSUBSIDIARYCURRENCY</sourcefrom>
-      <sourcelist>[scriptid=customrecord_hsbc_configuration.custrecord_hsbc_config_subsidiary]</sourcelist> -->
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
       <storevalue>T</storevalue>
       <subtab></subtab>
     </customrecordcustomfield>
@@ -1020,7 +1005,7 @@ n0hMLsE+GjEJ2lDPW2kwRueV8czx0Q58kF4vv/3+OQqhXyIIT2iZqfnHpgJnxTQA&#xd;
       <checkspelling>F</checkspelling>
       <defaultchecked>F</defaultchecked>
       <defaultselection></defaultselection>
-      <!-- <defaultvalue>&lt;script&gt;document.getElementById(&apos;custrecord_hsbc_invoice_payment_help_fs&apos;).parentElement.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right; cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(2); }); return false;&quot;&gt;&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <defaultvalue></defaultvalue>
       <description></description>
       <displayheight></displayheight>
       <displaytype>NORMAL</displaytype>
@@ -1351,7 +1336,7 @@ Please make sure that you know who your company approver is.&#xd;
       <checkspelling>F</checkspelling>
       <defaultchecked>F</defaultchecked>
       <defaultselection></defaultselection>
-      <!-- <defaultvalue>&lt;script&gt;document.getElementById(&apos;custrecord_hsbc_buyer_help_text_fs&apos;).parentElement.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right; cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(3); }); return false;&quot;&gt;&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <defaultvalue></defaultvalue>
       <description></description>
       <displayheight></displayheight>
       <displaytype>NORMAL</displaytype>
@@ -1773,7 +1758,7 @@ Please make sure that you know who your company approver is.&#xd;
           <fldfiltercomparetype>EQ</fldfiltercomparetype>
           <fldfilternotnull>F</fldfilternotnull>
           <fldfilternull>F</fldfilternull>
-          <fldfiltersel>13</fldfiltersel>
+          <fldfiltersel>13|15</fldfiltersel>
           <fldfilterval></fldfilterval>
         </customfieldfilter>
       </customfieldfilters>
@@ -1970,45 +1955,6 @@ Please make sure that you know who your company approver is.&#xd;
       <storevalue>F</storevalue>
       <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
     </customrecordcustomfield>
-    <!-- <customrecordcustomfield scriptid="custrecord_hsbc_buyer_service_charges">
-      <accesslevel>2</accesslevel>
-      <allowquickadd>F</allowquickadd>
-      <applyformatting>F</applyformatting>
-      <checkspelling>F</checkspelling>
-      <defaultchecked>F</defaultchecked>
-      <defaultselection></defaultselection>
-      <defaultvalue>&lt;br/&gt;&lt;br /&gt;&lt;p style=&quot;color: #666666;padding:5px;font-size: 12px;&quot;&gt;SERVICE CHARGES&lt;/p&gt;</defaultvalue>
-      <description></description>
-      <displayheight></displayheight>
-      <displaytype>NORMAL</displaytype>
-      <displaywidth></displaywidth>
-      <dynamicdefault></dynamicdefault>
-      <encryptatrest>F</encryptatrest>
-      <fieldtype>INLINEHTML</fieldtype>
-      <globalsearch>F</globalsearch>
-      <help></help>
-      <isformula>F</isformula>
-      <ismandatory>F</ismandatory>
-      <isparent>F</isparent>
-      <label>Service Charges</label>
-      <linktext></linktext>
-      <maxlength></maxlength>
-      <maxvalue></maxvalue>
-      <minvalue></minvalue>
-      <onparentdelete></onparentdelete>
-      <parentsubtab></parentsubtab>
-      <rolerestrict>F</rolerestrict>
-      <searchcomparefield></searchcomparefield>
-      <searchdefault></searchdefault>
-      <searchlevel>2</searchlevel>
-      <selectrecordtype></selectrecordtype>
-      <showinlist>F</showinlist>
-      <sourcefilterby></sourcefilterby>
-      <sourcefrom></sourcefrom>
-      <sourcelist></sourcelist>
-      <storevalue>F</storevalue>
-      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
-    </customrecordcustomfield> -->
     <customrecordcustomfield scriptid="custrecord_hsbc_column_sp">
       <accesslevel>2</accesslevel>
       <allowquickadd>F</allowquickadd>
@@ -2165,6 +2111,45 @@ Please make sure that you know who your company approver is.&#xd;
       <storevalue>F</storevalue>
       <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
     </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_aje_tnc">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>&lt;script&gt;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; &quot;&gt; The Automated Accounting Entries feature allows all Trade Working Capital loans liability, expenses and interest accrual information to auto populate into your financial reports in your Oracle NetSuite instance.&lt;br/&gt;By checking this box, you fully authorise HSBC to populate this information in your financial reports and you confirm that you have read, understood, and accept the Terms and Conditions which can be accessed and read  &lt;a href=&quot;/app/site/hosting/scriptlet.nl?script=customscript_hsbc_aje_terms_condition&amp;deploy=customdeploy_hsbc_aje_terms&quot; onclick=&quot;window.open(this.href,&apos;newwindow&apos;, &apos;toolbar=no,addressbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=800, height=400, top=screen.height / 2 - 600 / 2,left = screen.width / 2 - 1000 / 2&apos;); return false;&quot;&gt;here&lt;/a&gt;. You can revoke this feature at any time following which you will have to manually make entries towards Trade Working Capital loans liability, expenses and interest accruals in your financial reports. &lt;/p&gt;</defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>INLINEHTML</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>TWC Buyer AJE T and C</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>F</storevalue>
+      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
+    </customrecordcustomfield>
     <customrecordcustomfield scriptid="custrecord_hsbc_seller_help_text">
       <accesslevel>2</accesslevel>
       <allowquickadd>F</allowquickadd>
@@ -2172,7 +2157,7 @@ Please make sure that you know who your company approver is.&#xd;
       <checkspelling>F</checkspelling>
       <defaultchecked>F</defaultchecked>
       <defaultselection></defaultselection>
-      <!-- <defaultvalue>&lt;script&gt;document.getElementById(&apos;custrecord_hsbc_seller_help_text_fs&apos;).parentElement.parentElement.parentElement.parentElement.parentElement.style=&quot;width:100%&quot;;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; text-align: right; cursor:pointer; color:blue;padding-top:5px;&quot;&gt;&lt;a onclick=&quot;var rConfig = JSON.parse(&apos;{}&apos;); rConfig[&apos;context&apos;] = &apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;; var entryPointRequire = require.config(rConfig); entryPointRequire([&apos;/SuiteBundles/Bundle 390527/HSBCSuiteapp/hsbc_configuration_validation_CS&apos;], function(custommodule){ custommodule.configuration(4); }); return false;&quot;&gt;&lt;img height=&quot;12&quot; width=&quot;12&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQwSURBVHgBrVhNctMwFH5PzsA27PkxJ2h6grp7fpIT0PA3w6rlBG1P0LJiBmhDT4AL7BtO0HACVGBPWJbGEu/ZkqM4cS01/WY8Y8nS86en9ychBCLuvo1VdqMLQqwg6IS62uZhjOmRAFpqBd9E9C+V6SsJAUDfgXceHmwIgU/oNYEwjJTSb359efbRZ3AjodsP3idRFA3oNa4ZIivt2nFEbLeJWC2huDtoKwXbiHqr8mlEfccAagjQGsm0P56f+z4BEB2tcbNKkPr2hYDdRfNqCRGZWGv9iV47TvcQMSNBL4YQACan9ZyGJeL5+iL7whoyJ46AMWmEiDzbhyUQdw+2SDvbMHWAhaSwQqZNZE4dMjRp0pPpyxFcAxYslrYf193tE+4EtplZMryC6yGTC0z7kgnA1BE65p8lSg0Ztx6YJm3T+WpoDPFF3H1HBt9iTeXbl2XZ+u+vhW227CAiUzItbKaZjBObrPFzzDlqcm3WOtnULtnUHrdNWLmf/9sRbLUjz46f3odLV5jbGnthUjOEPBJ7da5tce/x4YmVQQvp80JyGyIym3YQqa8PDVAa9mCWjIQibVgkSqu9JjkcRuy70TSgsfwfVrCHdtzxZGtZz8Ym2oYNsw1ztlEH0hJ7db7lIlIxaUh17UdNOQcaoJTagHKF+rUbKClWfaS+UoZA0WmSV0T9AtkF9oTWYq38mVYeLo6xfZtMlJz/zinFMhIr0IjZ8aQhHdt2k3qLOSo1r3LR+GyC7bKh9V9oRKtUApczbNSx/QF4QKbPU/KgW4tsjb1PRGLPIT9slseeiNI02xyH2hCIqjtz2EAUK2TsG448yeQhDO0WLIk7Dz50ixim3e487cAVwFs2hmWAWNXwsK608MCYCKElFLMNwBLgaEu2dQUy1rFQktvrb7Z7Mpk0xo3rRlFdFiAuZ0IIXbodNRJYAlGkr7D9TvDUekhbJkpPIE95DIGIIpFqDUckjeRcBNdOpu4uqNGxKc/2btb1yT9VWNtryu7z8/J6+6Ro4ejsuL+aZ3vKJ0d2ENUm2xAAdnva+z/8xL3DJyFzTfFf0EGV58CcECdFmEbq5O7Dgy3wBEXmUuUqg57vPNKqe0SShsO0pqYyoqyDkKpHLjM95M5ka1qzlw2ZEmbHkVHWRTOnjruPDvcRwa5Y+ga4uPuBShg99jmzVU8e5BBvfn5+urWQkClNeXAnlJQPTHH/CWZONrhaewziD1wLw9SeaDU3T0Nsqp7MYNOcNOIpmfP1qmdedpR2J+cCuN4ODQnmsoI9N3G66YB43vM6Sjuk6LJB7zg2VRLjUpery0XkeB6nICFaa2SsXB7POAfbDFUHO0GXDbM/yAt390RbhaxOqRvHntxk+N4XVoYYays0AQ858No40wRvQlNig5hPKqT6NVPw8+Ne6Y014FCg+g4QfqX3HxwqN8NgLty9AAAAAElFTkSuQmCC&quot;&gt; Help&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;</defaultvalue> -->
+      <defaultvalue></defaultvalue>
       <description></description>
       <displayheight></displayheight>
       <displaytype>NORMAL</displaytype>
@@ -2800,7 +2785,7 @@ Please make sure that you know who your company approver is.&#xd;
           <fldfiltercomparetype>EQ</fldfiltercomparetype>
           <fldfilternotnull>F</fldfilternotnull>
           <fldfilternull>F</fldfilternull>
-          <fldfiltersel>13</fldfiltersel>
+          <fldfiltersel>13|15</fldfiltersel>
           <fldfilterval></fldfilterval>
         </customfieldfilter>
       </customfieldfilters>
@@ -3012,45 +2997,6 @@ Please make sure that you know who your company approver is.&#xd;
       <storevalue>F</storevalue>
       <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_480]</subtab>
     </customrecordcustomfield>
-    <customrecordcustomfield scriptid="custrecord_hsbc_buyer_aje_tnc">
-      <accesslevel>2</accesslevel>
-      <allowquickadd>F</allowquickadd>
-      <applyformatting>F</applyformatting>
-      <checkspelling>F</checkspelling>
-      <defaultchecked>F</defaultchecked>
-      <defaultselection></defaultselection>
-      <defaultvalue>&lt;script&gt;&lt;/script&gt;&lt;p style=&quot;color: #666666;font-size: 12px; &quot;&gt; The Automated Accounting Entries feature allows all Trade Working Capital loans liability, expenses and interest accrual information to auto populate into your financial reports in your Oracle NetSuite instance.&lt;br/&gt;By checking this box, you fully authorise HSBC to populate this information in your financial reports and you confirm that you have read, understood, and accept the Terms and Conditions which can be accessed and read  &lt;a href=&quot;/app/site/hosting/scriptlet.nl?script=customscript_hsbc_aje_terms_condition&amp;deploy=customdeploy_hsbc_aje_terms&quot; onclick=&quot;window.open(this.href,&apos;newwindow&apos;, &apos;toolbar=no,addressbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=800, height=400, top=screen.height / 2 - 600 / 2,left = screen.width / 2 - 1000 / 2&apos;); return false;&quot;&gt;here&lt;/a&gt;. You can revoke this feature at any time following which you will have to manually make entries towards Trade Working Capital loans liability, expenses and interest accruals in your financial reports. &lt;/p&gt;</defaultvalue>
-      <description></description>
-      <displayheight></displayheight>
-      <displaytype>NORMAL</displaytype>
-      <displaywidth></displaywidth>
-      <dynamicdefault></dynamicdefault>
-      <encryptatrest>F</encryptatrest>
-      <fieldtype>INLINEHTML</fieldtype>
-      <globalsearch>F</globalsearch>
-      <help></help>
-      <isformula>F</isformula>
-      <ismandatory>F</ismandatory>
-      <isparent>F</isparent>
-      <label>TWC Buyer AJE T and C</label>
-      <linktext></linktext>
-      <maxlength></maxlength>
-      <maxvalue></maxvalue>
-      <minvalue></minvalue>
-      <onparentdelete></onparentdelete>
-      <parentsubtab></parentsubtab>
-      <rolerestrict>F</rolerestrict>
-      <searchcomparefield></searchcomparefield>
-      <searchdefault></searchdefault>
-      <searchlevel>2</searchlevel>
-      <selectrecordtype></selectrecordtype>
-      <showinlist>F</showinlist>
-      <sourcefilterby></sourcefilterby>
-      <sourcefrom></sourcefrom>
-      <sourcelist></sourcelist>
-      <storevalue>F</storevalue>
-      <subtab>[scriptid=customrecord_hsbc_configuration.tab_hsbc_t2371454_935]</subtab>
-    </customrecordcustomfield>
     <customrecordcustomfield scriptid="custrecord_hsbc_seller_aje_tnc">
       <accesslevel>2</accesslevel>
       <allowquickadd>F</allowquickadd>
@@ -3102,21 +3048,6 @@ Please make sure that you know who your company approver is.&#xd;
       <permittedrole>[scriptid=customrole_hsbc_app_ap_clerk]</permittedrole>
       <restriction></restriction>
     </permission>
-    <!-- <permission>
-      <permittedlevel>VIEW</permittedlevel>
-      <permittedrole>[scriptid=customrole1096]</permittedrole>
-      <restriction></restriction>
-    </permission>
-    <permission>
-      <permittedlevel>VIEW</permittedlevel>
-      <permittedrole>[scriptid=customrole1097]</permittedrole>
-      <restriction></restriction>
-    </permission>
-    <permission>
-      <permittedlevel>VIEW</permittedlevel>
-      <permittedrole>[scriptid=customrole1098]</permittedrole>
-      <restriction></restriction>
-    </permission> -->
     <permission>
       <permittedlevel>VIEW</permittedlevel>
       <permittedrole>[scriptid=customrole_hsbc_app_ap_manager]</permittedrole>

@@ -9,7 +9,6 @@
   <allowquickadd>F</allowquickadd>
   <allowquicksearch>F</allowquicksearch>
   <allowuiaccess>T</allowuiaccess>
-  <customsegment></customsegment>
   <description></description>
   <enabledle>F</enabledle>
   <enablekeywords>T</enablekeywords>
@@ -98,7 +97,7 @@
       <globalsearch>F</globalsearch>
       <help></help>
       <isformula>F</isformula>
-      <ismandatory>F</ismandatory>
+      <ismandatory>T</ismandatory>
       <isparent>F</isparent>
       <label>Account Name</label>
       <linktext></linktext>
@@ -549,21 +548,4 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
-  <!-- <permissions>
-    <permission>
-      <permittedlevel>FULL</permittedlevel>
-      <permittedrole>[scriptid=customrole1096]</permittedrole>
-      <restriction></restriction>
-    </permission>
-    <permission>
-      <permittedlevel>FULL</permittedlevel>
-      <permittedrole>[scriptid=customrole1097]</permittedrole>
-      <restriction></restriction>
-    </permission>
-    <permission>
-      <permittedlevel>FULL</permittedlevel>
-      <permittedrole>[scriptid=customrole1098]</permittedrole>
-      <restriction></restriction>
-    </permission>
-  </permissions> -->
 </customrecordtype>

@@ -9,7 +9,6 @@
   <allowquickadd>T</allowquickadd>
   <allowquicksearch>F</allowquicksearch>
   <allowuiaccess>T</allowuiaccess>
-  <customsegment></customsegment>
   <description></description>
   <enabledle>F</enabledle>
   <enablekeywords>T</enablekeywords>
@@ -1398,8 +1397,8 @@
       <selectrecordtype></selectrecordtype>
       <showinlist>T</showinlist>
       <sourcefilterby></sourcefilterby>
-      <!-- <sourcefrom>STDRECORDSUBSIDIARYCITY</sourcefrom>
-      <sourcelist>[scriptid=customrecord_hsbc_tl_seller_payment.custrecord_hsbc_pssl_inv_susidiary]</sourcelist> -->
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
       <storevalue>T</storevalue>
       <subtab></subtab>
     </customrecordcustomfield>
@@ -2682,7 +2681,7 @@
           <fldfiltercomparetype>EQ</fldfiltercomparetype>
           <fldfilternotnull>F</fldfilternotnull>
           <fldfilternull>F</fldfilternull>
-          <fldfiltersel>13</fldfiltersel>
+          <fldfiltersel>13|15</fldfiltersel>
           <fldfilterval></fldfilterval>
         </customfieldfilter>
       </customfieldfilters>

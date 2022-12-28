@@ -101,7 +101,7 @@
           <id>[scriptid=customrecord_hsbc_beneficiary_details.custrecord_hsbc_vendor_bank_acct_name]</id>
           <label>Account Name</label>
           <visible>T</visible>
-          <mandatory>F</mandatory>
+          <mandatory>T</mandatory>
           <displayType>NORMAL</displayType>
           <columnBreak>F</columnBreak>
           <sameRowAsPrevious>F</sameRowAsPrevious>
