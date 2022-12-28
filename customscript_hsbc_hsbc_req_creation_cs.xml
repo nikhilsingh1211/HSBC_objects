@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_hsbc_hsbc_req_creation_cs">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC Request Creation CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Client/hsbc_request_creation_Day2_CS.js]</scriptfile>
+</clientscript>

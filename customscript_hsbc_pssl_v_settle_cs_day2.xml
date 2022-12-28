@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_hsbc_pssl_v_settle_cs_day2">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HSBC - PSSL View Settle CS Day2</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.hsbcbank.hsbcerp/Client/hsbc_pssl_view_settle_cs_day2.js]</scriptfile>
+</clientscript>
